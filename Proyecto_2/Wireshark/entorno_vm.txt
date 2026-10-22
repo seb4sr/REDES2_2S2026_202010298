@@ -1,0 +1,13 @@
+2026-10-22T06:03:03+00:00
+proyecto2-wireshark
+vmware
+2: ens64: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    altname enp2s0
+    inet 192.168.163.129/24 metric 100 brd 192.168.163.255 scope global dynamic ens64
+       valid_lft 1680sec preferred_lft 1680sec
+default via 192.168.163.2 dev ens64 proto dhcp src 192.168.163.129 metric 100 
+192.168.163.0/24 dev ens64 proto kernel scope link src 192.168.163.129 metric 100 
+192.168.163.2 dev ens64 proto dhcp scope link src 192.168.163.129 metric 100 
+TShark (Wireshark) 4.2.2 (Git v4.2.2 packaged as 4.2.2-1.1build3).
+
+Capture filter: host 192.168.163.129 and ((host 104.20.23.154 and tcp and (port 80 or port 443)) or (host 1.1.1.1 and (icmp or (udp and port 53))))

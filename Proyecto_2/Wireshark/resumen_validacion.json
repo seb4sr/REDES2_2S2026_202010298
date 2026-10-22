@@ -1,0 +1,40 @@
+{
+  "file": "captura_wireshark_202010298.pcapng",
+  "sha256": "57ce9b2ada772c95edef46cb8d7211f7d66d9a9813f8e2cc73a811392035a68f",
+  "packets": 42,
+  "vm_ip": "192.168.163.129",
+  "http_stream": 0,
+  "tls_stream": 1,
+  "tcp_handshake": [
+    1,
+    2,
+    3
+  ],
+  "dns": [
+    10,
+    13
+  ],
+  "http": [
+    4,
+    6
+  ],
+  "tls_clienthello": 17,
+  "tls_serverhello": 19,
+  "tls_certificate": 20,
+  "tls_application_frames": [
+    26,
+    28
+  ],
+  "icmp_requests": [
+    33,
+    37,
+    39,
+    41
+  ],
+  "icmp_replies": [
+    36,
+    38,
+    40,
+    42
+  ]
+}

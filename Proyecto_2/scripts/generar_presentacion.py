@@ -107,8 +107,8 @@ start('Validación y límites del prototipo')
 text('BGP intercambia rutas entre los tres operadores.<br/>OSPF y EIGRP conectan las redes internas.<br/>La laptop usa WiFi y obtiene DHCP desde AndinaCom.',54,419,24,width=830)
 text('Evidencia disponible',54,250,23,BLUE,True)
 text('Matriz de ping, pruebas web por HTTP/HTTPS, estados LACP y prueba de conmutación HSRP.',54,207,21,width=825)
-text('Pendiente de la entrega',54,125,21,BLUE,True)
-text('Captura auténtica de Wireshark dentro de una VM y análisis de sus paquetes.',54,86,18,width=825)
+text('Wireshark: captura real de la VM',54,125,21,BLUE,True)
+text('42 tramas verificadas: TCP, DNS, HTTP/HTTPS e ICMP.<br/>Análisis por trama y cinco imágenes de Wireshark en Ubuntu/VMware.',54,86,18,width=825)
 end()
 
 # 8. Rollout and business next step.

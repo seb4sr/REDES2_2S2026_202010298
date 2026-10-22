@@ -1,0 +1,2832 @@
+[
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "1"
+        ],
+        "frame.time_epoch": [
+          "1792648986.885601201"
+        ],
+        "frame.time_relative": [
+          "0.000000000"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "58278"
+        ],
+        "tcp.dstport": [
+          "80"
+        ],
+        "tcp.flags.syn": [
+          "True"
+        ],
+        "tcp.flags.ack": [
+          "False"
+        ],
+        "tcp.seq": [
+          "0"
+        ],
+        "tcp.ack": [
+          "0"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "2"
+        ],
+        "frame.time_epoch": [
+          "1792648986.928468941"
+        ],
+        "frame.time_relative": [
+          "0.042867740"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "80"
+        ],
+        "tcp.dstport": [
+          "58278"
+        ],
+        "tcp.flags.syn": [
+          "True"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "0"
+        ],
+        "tcp.ack": [
+          "1"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "3"
+        ],
+        "frame.time_epoch": [
+          "1792648986.928515085"
+        ],
+        "frame.time_relative": [
+          "0.042913884"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "58278"
+        ],
+        "tcp.dstport": [
+          "80"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "1"
+        ],
+        "tcp.ack": [
+          "1"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "4"
+        ],
+        "frame.time_epoch": [
+          "1792648986.928763518"
+        ],
+        "frame.time_relative": [
+          "0.043162317"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:http"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "58278"
+        ],
+        "tcp.dstport": [
+          "80"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "1"
+        ],
+        "tcp.ack": [
+          "1"
+        ],
+        "tcp.len": [
+          "74"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "http.request.method": [
+          "GET"
+        ],
+        "http.host": [
+          "example.com"
+        ],
+        "http.request.uri": [
+          "/"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "5"
+        ],
+        "frame.time_epoch": [
+          "1792648986.929045527"
+        ],
+        "frame.time_relative": [
+          "0.043444326"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "80"
+        ],
+        "tcp.dstport": [
+          "58278"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "1"
+        ],
+        "tcp.ack": [
+          "75"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "6"
+        ],
+        "frame.time_epoch": [
+          "1792648986.977845129"
+        ],
+        "frame.time_relative": [
+          "0.092243928"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:http:data-text-lines"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "80"
+        ],
+        "tcp.dstport": [
+          "58278"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "1"
+        ],
+        "tcp.ack": [
+          "75"
+        ],
+        "tcp.len": [
+          "933"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "http.response.code": [
+          "200"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "7"
+        ],
+        "frame.time_epoch": [
+          "1792648986.977881613"
+        ],
+        "frame.time_relative": [
+          "0.092280412"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "58278"
+        ],
+        "tcp.dstport": [
+          "80"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "75"
+        ],
+        "tcp.ack": [
+          "934"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "8"
+        ],
+        "frame.time_epoch": [
+          "1792648986.978633450"
+        ],
+        "frame.time_relative": [
+          "0.093032249"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "58278"
+        ],
+        "tcp.dstport": [
+          "80"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "75"
+        ],
+        "tcp.ack": [
+          "934"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "True"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "9"
+        ],
+        "frame.time_epoch": [
+          "1792648986.978920669"
+        ],
+        "frame.time_relative": [
+          "0.093319468"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "80"
+        ],
+        "tcp.dstport": [
+          "58278"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "934"
+        ],
+        "tcp.ack": [
+          "76"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "10"
+        ],
+        "frame.time_epoch": [
+          "1792648986.992497605"
+        ],
+        "frame.time_relative": [
+          "0.106896404"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:udp:dns"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "1.1.1.1"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "17"
+        ],
+        "udp.srcport": [
+          "51821"
+        ],
+        "udp.dstport": [
+          "53"
+        ],
+        "dns.id": [
+          "0x671e"
+        ],
+        "dns.flags.response": [
+          "False"
+        ],
+        "dns.qry.name": [
+          "example.com"
+        ],
+        "dns.qry.type": [
+          "1"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "11"
+        ],
+        "frame.time_epoch": [
+          "1792648987.019430325"
+        ],
+        "frame.time_relative": [
+          "0.133829124"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "80"
+        ],
+        "tcp.dstport": [
+          "58278"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "934"
+        ],
+        "tcp.ack": [
+          "76"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "True"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "12"
+        ],
+        "frame.time_epoch": [
+          "1792648987.019457781"
+        ],
+        "frame.time_relative": [
+          "0.133856580"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "0"
+        ],
+        "tcp.srcport": [
+          "58278"
+        ],
+        "tcp.dstport": [
+          "80"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "76"
+        ],
+        "tcp.ack": [
+          "935"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "13"
+        ],
+        "frame.time_epoch": [
+          "1792648987.035479636"
+        ],
+        "frame.time_relative": [
+          "0.149878435"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:udp:dns"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "1.1.1.1"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "17"
+        ],
+        "udp.srcport": [
+          "53"
+        ],
+        "udp.dstport": [
+          "51821"
+        ],
+        "dns.id": [
+          "0x671e"
+        ],
+        "dns.flags.response": [
+          "True"
+        ],
+        "dns.qry.name": [
+          "example.com"
+        ],
+        "dns.qry.type": [
+          "1"
+        ],
+        "dns.resp.ttl": [
+          "23",
+          "23"
+        ],
+        "dns.a": [
+          "104.20.23.154",
+          "172.66.147.243"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "14"
+        ],
+        "frame.time_epoch": [
+          "1792648987.059704114"
+        ],
+        "frame.time_relative": [
+          "0.174102913"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "True"
+        ],
+        "tcp.flags.ack": [
+          "False"
+        ],
+        "tcp.seq": [
+          "0"
+        ],
+        "tcp.ack": [
+          "0"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "15"
+        ],
+        "frame.time_epoch": [
+          "1792648987.101123473"
+        ],
+        "frame.time_relative": [
+          "0.215522272"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "True"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "0"
+        ],
+        "tcp.ack": [
+          "1"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "16"
+        ],
+        "frame.time_epoch": [
+          "1792648987.101169321"
+        ],
+        "frame.time_relative": [
+          "0.215568120"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "1"
+        ],
+        "tcp.ack": [
+          "1"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "17"
+        ],
+        "frame.time_epoch": [
+          "1792648987.104408171"
+        ],
+        "frame.time_relative": [
+          "0.218806970"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:tls"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "1"
+        ],
+        "tcp.ack": [
+          "1"
+        ],
+        "tcp.len": [
+          "219"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "tls.handshake.type": [
+          "1"
+        ],
+        "tls.handshake.version": [
+          "0x0303"
+        ],
+        "tls.record.content_type": [
+          "22"
+        ],
+        "tls.record.version": [
+          "0x0301"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "18"
+        ],
+        "frame.time_epoch": [
+          "1792648987.104717027"
+        ],
+        "frame.time_relative": [
+          "0.219115826"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "1"
+        ],
+        "tcp.ack": [
+          "220"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "19"
+        ],
+        "frame.time_epoch": [
+          "1792648987.157428700"
+        ],
+        "frame.time_relative": [
+          "0.271827499"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:tls"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "1"
+        ],
+        "tcp.ack": [
+          "220"
+        ],
+        "tcp.len": [
+          "2920"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "tls.handshake.type": [
+          "2"
+        ],
+        "tls.handshake.version": [
+          "0x0303"
+        ],
+        "tls.record.content_type": [
+          "22"
+        ],
+        "tls.record.version": [
+          "0x0303"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "20"
+        ],
+        "frame.time_epoch": [
+          "1792648987.157429007"
+        ],
+        "frame.time_relative": [
+          "0.271827806"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:tls:x509sat:x509sat:x509sat:x509sat:pkcs-1:x509ce:x509ce:pkix1implicit:x509ce:x509ce:x509ce:x509ce:x509ce:tls:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:pkcs-1:x509ce:x509ce:pkix1implicit:x509ce:x509ce:x509ce:x509ce:x509ce:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:pkcs-1:x509ce:x509ce:pkix1implicit:x509ce:pkix1explicit:x509ce:x509ce:x509ce:x509ce:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:pkcs-1:x509ce:x509ce:x509ce:x509ce:x509ce:x509ce:x509ce:pkix1implicit:tls"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "2921"
+        ],
+        "tcp.ack": [
+          "220"
+        ],
+        "tcp.len": [
+          "1007"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "tls.handshake.type": [
+          "11",
+          "12",
+          "14"
+        ],
+        "tls.record.content_type": [
+          "22",
+          "22",
+          "22"
+        ],
+        "tls.record.version": [
+          "0x0303",
+          "0x0303",
+          "0x0303"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "21"
+        ],
+        "frame.time_epoch": [
+          "1792648987.157465196"
+        ],
+        "frame.time_relative": [
+          "0.271863995"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "220"
+        ],
+        "tcp.ack": [
+          "2921"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "22"
+        ],
+        "frame.time_epoch": [
+          "1792648987.157501631"
+        ],
+        "frame.time_relative": [
+          "0.271900430"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "220"
+        ],
+        "tcp.ack": [
+          "3928"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "23"
+        ],
+        "frame.time_epoch": [
+          "1792648987.163125692"
+        ],
+        "frame.time_relative": [
+          "0.277524491"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:tls"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "220"
+        ],
+        "tcp.ack": [
+          "3928"
+        ],
+        "tcp.len": [
+          "85"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "tls.handshake.type": [
+          "16"
+        ],
+        "tls.record.content_type": [
+          "22",
+          "20",
+          "22"
+        ],
+        "tls.record.version": [
+          "0x0303",
+          "0x0303",
+          "0x0303"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "24"
+        ],
+        "frame.time_epoch": [
+          "1792648987.163547999"
+        ],
+        "frame.time_relative": [
+          "0.277946798"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "3928"
+        ],
+        "tcp.ack": [
+          "305"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "25"
+        ],
+        "frame.time_epoch": [
+          "1792648987.215069145"
+        ],
+        "frame.time_relative": [
+          "0.329467944"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:tls"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "3928"
+        ],
+        "tcp.ack": [
+          "305"
+        ],
+        "tcp.len": [
+          "43"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "tls.record.content_type": [
+          "20",
+          "22"
+        ],
+        "tls.record.version": [
+          "0x0303",
+          "0x0303"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "26"
+        ],
+        "frame.time_epoch": [
+          "1792648987.216115352"
+        ],
+        "frame.time_relative": [
+          "0.330514151"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:tls"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "305"
+        ],
+        "tcp.ack": [
+          "3971"
+        ],
+        "tcp.len": [
+          "95"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "tls.record.content_type": [
+          "23"
+        ],
+        "tls.record.version": [
+          "0x0303"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "27"
+        ],
+        "frame.time_epoch": [
+          "1792648987.216871356"
+        ],
+        "frame.time_relative": [
+          "0.331270155"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "3971"
+        ],
+        "tcp.ack": [
+          "400"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "28"
+        ],
+        "frame.time_epoch": [
+          "1792648987.265097952"
+        ],
+        "frame.time_relative": [
+          "0.379496751"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:tls"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "3971"
+        ],
+        "tcp.ack": [
+          "400"
+        ],
+        "tcp.len": [
+          "979"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "tls.record.content_type": [
+          "23",
+          "23"
+        ],
+        "tls.record.version": [
+          "0x0303",
+          "0x0303"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "29"
+        ],
+        "frame.time_epoch": [
+          "1792648987.268046888"
+        ],
+        "frame.time_relative": [
+          "0.382445687"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp:tls"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "400"
+        ],
+        "tcp.ack": [
+          "4950"
+        ],
+        "tcp.len": [
+          "23"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ],
+        "tls.record.content_type": [
+          "21"
+        ],
+        "tls.record.version": [
+          "0x0303"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "30"
+        ],
+        "frame.time_epoch": [
+          "1792648987.269624750"
+        ],
+        "frame.time_relative": [
+          "0.384023549"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "4950"
+        ],
+        "tcp.ack": [
+          "423"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "31"
+        ],
+        "frame.time_epoch": [
+          "1792648987.270541958"
+        ],
+        "frame.time_relative": [
+          "0.384940757"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "423"
+        ],
+        "tcp.ack": [
+          "4950"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "True"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "32"
+        ],
+        "frame.time_epoch": [
+          "1792648987.271137271"
+        ],
+        "frame.time_relative": [
+          "0.385536070"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "4950"
+        ],
+        "tcp.ack": [
+          "424"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "33"
+        ],
+        "frame.time_epoch": [
+          "1792648987.280195724"
+        ],
+        "frame.time_relative": [
+          "0.394594523"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:icmp:data"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "1.1.1.1"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "1"
+        ],
+        "icmp.type": [
+          "8"
+        ],
+        "icmp.code": [
+          "0"
+        ],
+        "icmp.ident": [
+          "13262"
+        ],
+        "icmp.seq": [
+          "1"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "34"
+        ],
+        "frame.time_epoch": [
+          "1792648987.314029773"
+        ],
+        "frame.time_relative": [
+          "0.428428572"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "104.20.23.154"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "443"
+        ],
+        "tcp.dstport": [
+          "34006"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "4950"
+        ],
+        "tcp.ack": [
+          "424"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "True"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "35"
+        ],
+        "frame.time_epoch": [
+          "1792648987.314060065"
+        ],
+        "frame.time_relative": [
+          "0.428458864"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:tcp"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "104.20.23.154"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "6"
+        ],
+        "tcp.stream": [
+          "1"
+        ],
+        "tcp.srcport": [
+          "34006"
+        ],
+        "tcp.dstport": [
+          "443"
+        ],
+        "tcp.flags.syn": [
+          "False"
+        ],
+        "tcp.flags.ack": [
+          "True"
+        ],
+        "tcp.seq": [
+          "424"
+        ],
+        "tcp.ack": [
+          "4951"
+        ],
+        "tcp.len": [
+          "0"
+        ],
+        "tcp.flags.fin": [
+          "False"
+        ],
+        "tcp.flags.reset": [
+          "False"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "36"
+        ],
+        "frame.time_epoch": [
+          "1792648987.322703277"
+        ],
+        "frame.time_relative": [
+          "0.437102076"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:icmp:data"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "1.1.1.1"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "1"
+        ],
+        "icmp.type": [
+          "0"
+        ],
+        "icmp.code": [
+          "0"
+        ],
+        "icmp.ident": [
+          "13262"
+        ],
+        "icmp.seq": [
+          "1"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "37"
+        ],
+        "frame.time_epoch": [
+          "1792648988.282278268"
+        ],
+        "frame.time_relative": [
+          "1.396677067"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:icmp:data"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "1.1.1.1"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "1"
+        ],
+        "icmp.type": [
+          "8"
+        ],
+        "icmp.code": [
+          "0"
+        ],
+        "icmp.ident": [
+          "13262"
+        ],
+        "icmp.seq": [
+          "2"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "38"
+        ],
+        "frame.time_epoch": [
+          "1792648988.323969007"
+        ],
+        "frame.time_relative": [
+          "1.438367806"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:icmp:data"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "1.1.1.1"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "1"
+        ],
+        "icmp.type": [
+          "0"
+        ],
+        "icmp.code": [
+          "0"
+        ],
+        "icmp.ident": [
+          "13262"
+        ],
+        "icmp.seq": [
+          "2"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "39"
+        ],
+        "frame.time_epoch": [
+          "1792648989.284409377"
+        ],
+        "frame.time_relative": [
+          "2.398808176"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:icmp:data"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "1.1.1.1"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "1"
+        ],
+        "icmp.type": [
+          "8"
+        ],
+        "icmp.code": [
+          "0"
+        ],
+        "icmp.ident": [
+          "13262"
+        ],
+        "icmp.seq": [
+          "3"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "40"
+        ],
+        "frame.time_epoch": [
+          "1792648989.336914235"
+        ],
+        "frame.time_relative": [
+          "2.451313034"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:icmp:data"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "1.1.1.1"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "1"
+        ],
+        "icmp.type": [
+          "0"
+        ],
+        "icmp.code": [
+          "0"
+        ],
+        "icmp.ident": [
+          "13262"
+        ],
+        "icmp.seq": [
+          "3"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "41"
+        ],
+        "frame.time_epoch": [
+          "1792648990.286366697"
+        ],
+        "frame.time_relative": [
+          "3.400765496"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:icmp:data"
+        ],
+        "eth.src": [
+          "00:50:56:2a:02:98"
+        ],
+        "eth.dst": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "ip.src": [
+          "192.168.163.129"
+        ],
+        "ip.dst": [
+          "1.1.1.1"
+        ],
+        "ip.ttl": [
+          "64"
+        ],
+        "ip.proto": [
+          "1"
+        ],
+        "icmp.type": [
+          "8"
+        ],
+        "icmp.code": [
+          "0"
+        ],
+        "icmp.ident": [
+          "13262"
+        ],
+        "icmp.seq": [
+          "4"
+        ]
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-22",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame.number": [
+          "42"
+        ],
+        "frame.time_epoch": [
+          "1792648990.324030578"
+        ],
+        "frame.time_relative": [
+          "3.438429377"
+        ],
+        "frame.protocols": [
+          "eth:ethertype:ip:icmp:data"
+        ],
+        "eth.src": [
+          "00:50:56:f9:f8:c0"
+        ],
+        "eth.dst": [
+          "00:50:56:2a:02:98"
+        ],
+        "ip.src": [
+          "1.1.1.1"
+        ],
+        "ip.dst": [
+          "192.168.163.129"
+        ],
+        "ip.ttl": [
+          "128"
+        ],
+        "ip.proto": [
+          "1"
+        ],
+        "icmp.type": [
+          "0"
+        ],
+        "icmp.code": [
+          "0"
+        ],
+        "icmp.ident": [
+          "13262"
+        ],
+        "icmp.seq": [
+          "4"
+        ]
+      }
+    }
+  }
+]

@@ -1,31 +1,18 @@
 # Captura real de tráfico controlado
 
-Estado: pendiente. Se detectó VMware Workstation instalado, sin máquinas virtuales en ejecución al consultar el entorno.
+Estado: completo. Se preparó una VM Ubuntu 24.04 en VMware Workstation, con 2 CPU, 2 GB de RAM, disco de 12 GB y un adaptador E1000 en NAT. Wireshark/Tshark 4.2.2 produjo la captura real de 42 tramas.
 
-El enunciado contiene una mención general a loopback/servidor local, pero su rúbrica específica exige cuatro escenarios capturados dentro de una VM. Se adopta el requisito más completo: VM Linux con adaptador NAT, sin modo puente.
+- [Abrir el análisis por trama y las cinco imágenes](ANALISIS_WIRESHARK.md).
+- [Archivo pcapng](captura_wireshark_202010298.pcapng).
+- `capinfos.txt`, `entorno_vm.txt` y `escenarios.log`: formato, entorno y resultados de los comandos.
+- `paquetes.json` y `resumen_validacion.json`: campos exportados y comprobaciones automáticas.
 
-## Preparación dentro de la VM
+La imagen base se descargó de https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.vmdk y se verificó contra su SHA256SUMS oficial. La VM y su clave SSH permanecen fuera de Git, en `.vm-capture/` del espacio de trabajo. El archivo de VMware es `Proyecto2-Wireshark.vmx`.
 
-Instalar Wireshark/tshark, curl, dnsutils y ping mediante el gestor de paquetes de la distribución. Copiar `capturar_vm.sh` dentro de la VM. Ejecutarlo allí, no en Windows:
+## Reproducción
 
-```bash
-bash capturar_vm.sh
-```
+Dentro de la VM, con usuario `captura` y sudo disponible, ejecutar `bash capturar_vm.sh`. Requiere dumpcap, tshark, capinfos, curl, dig y ping. El script conserva la captura anterior, captura durante 50 segundos y genera tráfico HTTP, DNS, HTTPS y cuatro pings. Los destinos pueden resolver a otras IP en futuras ejecuciones; regenerar el análisis desde los nuevos datos.
 
-El script captura únicamente en la interfaz de salida de la VM. Genera TCP/HTTP, DNS hacia 1.1.1.1, HTTPS y ping. Si algún servicio externo no responde, no asumir que el escenario se capturó: revisar sus salidas y repetirlo antes de detener la captura.
+`analizar_captura.py` se ejecuta junto a los archivos exportados y valida el handshake, DNS, HTTP 200, TLS y los cuatro pares ICMP. Genera el análisis y el resumen con SHA-256. `gui_screenshots.py` se ejecuta dentro de la VM con Wireshark, Xvfb y scrot: toma imágenes de la aplicación real en una pantalla virtual.
 
-Copiar el archivo auténtico resultante a esta carpeta con el nombre `captura_wireshark_202010298.pcapng`.
-
-## Filtros y evidencia requerida
-
-| Escenario | Filtro Wireshark | Qué documentar |
-|---|---|---|
-| Three-way handshake | `tcp.flags.syn == 1 || tcp.flags.ack == 1` | Un mismo flujo: SYN, SYN/ACK, ACK; números de trama, SEQ y ACK |
-| DNS | `dns` | Consulta A y respuesta, identificador, UDP/53 y TTL |
-| HTTP | `http` | Host, método GET, respuesta y contenido visible |
-| HTTPS | `tls` | ClientHello/ServerHello y Application Data cifrado |
-| ICMP | `icmp` | Echo Request/Reply, identificador, secuencia y TTL |
-
-Verificar apertura con Wireshark y usar `capinfos` para comprobar formato y cantidad de paquetes. Para describir cada protocolo, separar Ethernet, IP, transporte y aplicación. ICMP pertenece a la capa de red y no utiliza puertos TCP/UDP.
-
-No confundir los paquetes de la VM con los de la red simulada en Packet Tracer: son dos evidencias diferentes que pide el proyecto.
+La captura corresponde al tráfico de la VM en NAT. Las pruebas de enrutamiento y redundancia del proyecto están documentadas separadamente en Packet Tracer.

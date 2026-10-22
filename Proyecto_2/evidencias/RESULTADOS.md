@@ -1,6 +1,6 @@
 # Resultados verificados en Packet Tracer
 
-Estas pruebas provienen del simulador. La captura Wireshark de una VM es un entregable distinto y sigue pendiente.
+Estas pruebas provienen del simulador. La [captura Wireshark de la VM](../Wireshark/ANALISIS_WIRESHARK.md) está completa y documenta por separado TCP, DNS, HTTP/HTTPS e ICMP con 42 tramas reales.
 
 | Comprobación | Resultado | Evidencia |
 |---|---|---|

@@ -1,0 +1,130 @@
+=== HTTP: TCP handshake and plaintext GET ===
+* Added example.com:80:104.20.23.154 to DNS cache
+* Hostname example.com was found in DNS cache
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 104.20.23.154:80...
+* Connected to example.com (104.20.23.154) port 80
+> GET / HTTP/1.1
+> Host: example.com
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Date: Thu, 22 Oct 2026 06:03:06 GMT
+< Content-Type: text/html; charset=utf-8
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Server: cloudflare
+< Last-Modified: Wed, 21 Oct 2026 20:09:25 GMT
+< Allow: GET, HEAD
+< Accept-Ranges: bytes
+< Age: 2
+< cf-cache-status: HIT
+< CF-RAY: a4e64c07cf38ce07-MIA
+< alt-svc: h3=":443"; ma=86400
+< 
+{ [577 bytes data]
+100   577    0   577    0     0   6179      0 --:--:-- --:--:-- --:--:--  6204
+* Connection #0 to host example.com left intact
+=== DNS: explicit A query to 1.1.1.1 ===
+
+; <<>> DiG 9.18.39-0ubuntu0.24.04.8-Ubuntu <<>> @1.1.1.1 example.com A +time=5 +tries=1
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26398
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;example.com.			IN	A
+
+;; ANSWER SECTION:
+example.com.		23	IN	A	104.20.23.154
+example.com.		23	IN	A	172.66.147.243
+
+;; Query time: 43 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Thu Oct 22 06:03:07 UTC 2026
+;; MSG SIZE  rcvd: 72
+
+=== HTTPS: TLS 1.2 handshake and encrypted application data ===
+* Added example.com:443:104.20.23.154 to DNS cache
+* Hostname example.com was found in DNS cache
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 104.20.23.154:443...
+* Connected to example.com (104.20.23.154) port 443
+* ALPN: curl offers http/1.1
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client hello (1):
+} [214 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+{ [5 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server hello (2):
+{ [110 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [3677 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [116 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [37 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-CHACHA20-POLY1305 / X25519 / id-ecPublicKey
+* ALPN: server accepted http/1.1
+* Server certificate:
+*  subject: CN=example.com
+*  start date: Sep 26 22:49:11 2026 GMT
+*  expire date: Dec 25 22:56:35 2026 GMT
+*  subjectAltName: host "example.com" matched cert's "example.com"
+*  issuer: C=US; O=SSL Corporation; CN=Cloudflare TLS Issuing ECC CA 3
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA256
+*   Certificate level 1: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA384
+*   Certificate level 2: Public key type EC/secp384r1 (384/192 Bits/secBits), signed using ecdsa-with-SHA384
+*   Certificate level 3: Public key type EC/secp384r1 (384/192 Bits/secBits), signed using ecdsa-with-SHA384
+* using HTTP/1.x
+} [5 bytes data]
+> GET / HTTP/1.1
+> Host: example.com
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+{ [5 bytes data]
+< HTTP/1.1 200 OK
+< Date: Thu, 22 Oct 2026 06:03:07 GMT
+< Content-Type: text/html; charset=utf-8
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Server: cloudflare
+< last-modified: Wed, 21 Oct 2026 20:09:25 GMT
+< allow: GET, HEAD
+< Accept-Ranges: bytes
+< Age: 13295
+< cf-cache-status: HIT
+< CF-RAY: a4e64c099c4928b2-MIA
+< alt-svc: h3=":443"; ma=86400
+< 
+{ [577 bytes data]
+100   577    0   577    0     0   2788      0 --:--:-- --:--:-- --:--:--  2800
+* Connection #0 to host example.com left intact
+=== ICMP: external Echo Request and Echo Reply ===
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=128 time=42.5 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=128 time=41.7 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=128 time=52.5 ms
+64 bytes from 1.1.1.1: icmp_seq=4 ttl=128 time=37.7 ms
+
+--- 1.1.1.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3002ms
+rtt min/avg/max/mdev = 37.713/43.625/52.549/5.464 ms

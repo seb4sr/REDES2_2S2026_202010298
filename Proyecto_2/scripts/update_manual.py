@@ -17,7 +17,7 @@ assert len(lacp['pings'])==6 and not lacp['timeouts']
 assert all('Received = 4' in p['output'] for p in lacp['pings'])
 assert 'Received = 4' in hsrp['ping_after_failover'] and not hsrp.get('error')
 
-lines=['# Resultados verificados en Packet Tracer','','Estas pruebas provienen del simulador. La captura Wireshark de una VM es un entregable distinto y sigue pendiente.','','| Comprobación | Resultado | Evidencia |','|---|---|---|',
+lines=['# Resultados verificados en Packet Tracer','','Estas pruebas provienen del simulador. La [captura Wireshark de la VM](../Wireshark/ANALISIS_WIRESHARK.md) está completa y documenta por separado TCP, DNS, HTTP/HTTPS e ICMP con 42 tramas reales.','','| Comprobación | Resultado | Evidencia |','|---|---|---|',
  '| DHCP | 20 de 20 hosts finales con concesión dinámica válida | `hosts_dhcp.json` |',
  '| ACL ICMP | 30 de 30 pares dirigidos coinciden con la política | `matriz_ping.json` |',
  '| Web central | 14 de 14: HTTP y HTTPS desde seis departamentos y la laptop | `pruebas_web.json` |',

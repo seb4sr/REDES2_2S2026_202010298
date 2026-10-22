@@ -2,7 +2,7 @@
 
 Sergio Sandoval · 202010298 · Universidad de San Carlos de Guatemala · Redes de Computadoras 2 · 2S2026.
 
-**Estado:** implementación de Packet Tracer validada. [Resultados de las pruebas](evidencias/RESULTADOS.md), [captura real de la topología](evidencias/topologia_completa.png) y [configuraciones efectivas leídas de IOS](configs_aplicadas/). La sección de Wireshark todavía requiere la captura real desde una VM y el análisis de sus tramas.
+**Estado:** implementación de Packet Tracer validada. [Resultados de las pruebas](evidencias/RESULTADOS.md), [captura real de la topología](evidencias/topologia_completa.png) y [configuraciones efectivas leídas de IOS](configs_aplicadas/). Wireshark está completo: [análisis de las 42 tramas reales](Wireshark/ANALISIS_WIRESHARK.md), con cinco imágenes obtenidas dentro de la VM.
 
 ## Interpretación del enunciado
 
@@ -124,7 +124,7 @@ La laptop utiliza un módulo `Linksys-WPC300N`, el SSID de laboratorio `Default`
 
 ## Captura Wireshark
 
-La sección `Wireshark/README.md` explica cómo producir la captura auténtica dentro de una VM en NAT. El análisis final debe identificar números de trama reales, direcciones, puertos, flags, secuencias y TTL a partir de ese archivo. No se han generado paquetes ficticios ni se ha incluido una captura de muestra como evidencia.
+Se preparó Ubuntu 24.04 en VMware Workstation, con 2 CPU, 2 GB de RAM, disco de 12 GB y adaptador E1000 en NAT. Wireshark/Tshark 4.2.2 capturó 42 tramas reales en `ens64`. El [análisis completo](Wireshark/ANALISIS_WIRESHARK.md) identifica direcciones, puertos, flags, secuencias y TTL. TCP: tramas 1–3; DNS: 10 y 13; HTTP: 4 y 6; TLS: 17, 19, 20, 26 y 28; ICMP: cuatro solicitudes y cuatro respuestas. El archivo pcapng, metadatos, registros y cinco imágenes están en `Wireshark/`. La VM permanece fuera del repositorio, al igual que su clave privada de administración.
 
 
 ## Diagramas por operador

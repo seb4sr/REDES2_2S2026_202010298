@@ -1,0 +1,33 @@
+File name:           captura_wireshark_202010298.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   42
+File size:           11 kB
+Data size:           9204 bytes
+Capture duration:    3.438429377 seconds
+First packet time:   2026-10-22 06:03:06.885601201
+Last packet time:    2026-10-22 06:03:10.324030578
+Data byte rate:      2676 bytes/s
+Data bit rate:       21 kbps
+Average packet size: 219.14 bytes
+Average packet rate: 12 packets/s
+SHA256:              57ce9b2ada772c95edef46cb8d7211f7d66d9a9813f8e2cc73a811392035a68f
+SHA1:                a863a96a3fe8981c65167e11880ac653b53c72e6
+Strict time order:   True
+Capture hardware:    Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz (with SSE4.2)
+Capture oper-sys:    Linux 6.8.0-147-generic
+Capture application: Dumpcap (Wireshark) 4.2.2 (Git v4.2.2 packaged as 4.2.2-1.1build3)
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = ens64
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = host 192.168.163.129 and ((host 104.20.23.154 and tcp and (port 80 or port 443)) or (host 1.1.1.1 and (icmp or (udp and port 53))))
+                     Operating system = Linux 6.8.0-147-generic
+                     Number of stat entries = 1
+                     Number of packets = 42
