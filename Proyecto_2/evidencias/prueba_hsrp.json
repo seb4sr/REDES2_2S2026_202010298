@@ -1,0 +1,37 @@
+{
+  "before": [
+    {
+      "device": "AC-R4",
+      "result": {
+        "first": 0,
+        "second": "                     P indicates configured to preempt.\n                     |\nInterface   Grp  Pri P State    Active          Standby         Virtual IP\nGig         30   115 P Active   local           172.16.28.3     172.16.28.1    \nGig         40   100 P Standby  172.16.28.67    local           172.16.28.65   \n\n"
+      }
+    },
+    {
+      "device": "AC-R5",
+      "result": {
+        "first": 0,
+        "second": "                     P indicates configured to preempt.\n                     |\nInterface   Grp  Pri P State    Active          Standby         Virtual IP\nGig         30   100 P Standby  172.16.28.2     local           172.16.28.1    \nGig         40   115 P Active   local           172.16.28.66    172.16.28.65   \n\n"
+      }
+    }
+  ],
+  "shutdown": "power:false",
+  "after_failure": [
+    {
+      "device": "AC-R4",
+      "result": {
+        "first": 0,
+        "second": "                     P indicates configured to preempt.\n                     |\nInterface   Grp  Pri P State    Active          Standby         Virtual IP\n\n"
+      }
+    },
+    {
+      "device": "AC-R5",
+      "result": {
+        "first": 0,
+        "second": "                     P indicates configured to preempt.\n                     |\nInterface   Grp  Pri P State    Active          Standby         Virtual IP\nGig         30   100 P Active   local           unknown         172.16.28.1    \nGig         40   115 P Active   local           172.16.28.66    172.16.28.65   \n\n"
+      }
+    }
+  ],
+  "ping_after_failover": "ping 192.168.98.242\n\nPinging 192.168.98.242 with 32 bytes of data:\n\nReply from 192.168.98.242: bytes=32 time<1ms TTL=123\nReply from 192.168.98.242: bytes=32 time<1ms TTL=123\nReply from 192.168.98.242: bytes=32 time<1ms TTL=123\nReply from 192.168.98.242: bytes=32 time=6ms TTL=123\n\nPing statistics for 192.168.98.242:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 6ms, Average = 1ms\n\nC:\\>",
+  "restore": "power:true"
+}

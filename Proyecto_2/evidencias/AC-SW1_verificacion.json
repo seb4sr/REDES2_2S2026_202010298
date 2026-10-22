@@ -1,0 +1,3 @@
+{
+  "result": "[{\"command\":\"show etherchannel summary\",\"result\":{\"first\":0,\"second\":\"Flags:  D - down        P - in port-channel\\n        I - stand-alone s - suspended\\n        H - Hot-standby (LACP only)\\n        R - Layer3      S - Layer2\\n        U - in use      f - failed to allocate aggregator\\n        u - unsuitable for bundling\\n        w - waiting to be aggregated\\n        d - default port\\n\\n\\nNumber of channel-groups in use: 2\\nNumber of aggregators:           2\\n\\nGroup  Port-channel  Protocol    Ports\\n------+-------------+-----------+----------------------------------------------\\n\\n1      Po1(SU)           LACP   Fa0/1(P) Fa0/2(P) \\n2      Po2(SU)           LACP   Fa0/3(P) Fa0/4(P) \\n\\n\"}}]"
+}

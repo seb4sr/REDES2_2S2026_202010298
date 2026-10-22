@@ -1,0 +1,300 @@
+{
+  "temporary_endpoints": {
+    "FG-ADM": {
+      "name": "TEST-FG-ADM",
+      "switch": "FG-ADM-SW2",
+      "port": "FastEthernet0/8"
+    },
+    "FG-ATC": {
+      "name": "TEST-FG-ATC",
+      "switch": "FG-ATC-SW2",
+      "port": "FastEthernet0/8"
+    },
+    "AC-VEN": {
+      "name": "TEST-AC-VEN",
+      "switch": "AC-SW3",
+      "port": "FastEthernet0/10"
+    },
+    "AC-FAC": {
+      "name": "TEST-AC-FAC",
+      "switch": "AC-SW3",
+      "port": "FastEthernet0/11"
+    },
+    "ML-SOP": {
+      "name": "TEST-ML-SOP",
+      "switch": "ML-SOP-SW2",
+      "port": "FastEthernet0/8"
+    },
+    "ML-SEG": {
+      "name": "TEST-ML-SEG",
+      "switch": "ML-SEG-SW2",
+      "port": "FastEthernet0/8"
+    }
+  },
+  "tests": [
+    {
+      "source": "FG-ADM",
+      "destination": "ML-SEG",
+      "host": "FG-ADM-PC1",
+      "ip": "172.16.32.77",
+      "protocol": "http",
+      "expected": false,
+      "page": "",
+      "received": false,
+      "passed": true
+    },
+    {
+      "source": "FG-ATC",
+      "destination": "AC-VEN",
+      "host": "FG-ATC-PC1",
+      "ip": "172.16.28.28",
+      "protocol": "http",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_AC-VEN</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "AC-VEN",
+      "destination": "AC-FAC",
+      "host": "AC-VEN-PC1",
+      "ip": "172.16.28.90",
+      "protocol": "http",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_AC-FAC</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "AC-FAC",
+      "destination": "FG-ATC",
+      "host": "AC-FAC-PC1",
+      "ip": "172.16.18.151",
+      "protocol": "http",
+      "expected": false,
+      "page": "",
+      "received": false,
+      "passed": true
+    },
+    {
+      "source": "ML-SOP",
+      "destination": "FG-ADM",
+      "host": "ML-SOP-PC1",
+      "ip": "172.16.18.23",
+      "protocol": "http",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_FG-ADM</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "ML-SEG",
+      "destination": "ML-SOP",
+      "host": "ML-SEG-PC1",
+      "ip": "172.16.32.15",
+      "protocol": "http",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_ML-SOP</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "FG-ADM",
+      "destination": "FG-ATC",
+      "host": "FG-ADM-PC1",
+      "ip": "172.16.18.151",
+      "protocol": "http",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_FG-ATC</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "FG-ATC",
+      "destination": "AC-FAC",
+      "host": "FG-ATC-PC1",
+      "ip": "172.16.28.90",
+      "protocol": "http",
+      "expected": false,
+      "page": "",
+      "received": false,
+      "passed": true
+    },
+    {
+      "source": "AC-VEN",
+      "destination": "FG-ATC",
+      "host": "AC-VEN-PC1",
+      "ip": "172.16.18.151",
+      "protocol": "http",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_FG-ATC</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "AC-FAC",
+      "destination": "AC-VEN",
+      "host": "AC-FAC-PC1",
+      "ip": "172.16.28.28",
+      "protocol": "http",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_AC-VEN</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "ML-SOP",
+      "destination": "ML-SEG",
+      "host": "ML-SOP-PC1",
+      "ip": "172.16.32.77",
+      "protocol": "http",
+      "expected": false,
+      "page": "",
+      "received": false,
+      "passed": true
+    },
+    {
+      "source": "ML-SEG",
+      "destination": "FG-ADM",
+      "host": "ML-SEG-PC1",
+      "ip": "172.16.18.23",
+      "protocol": "http",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_FG-ADM</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "FG-ADM",
+      "destination": "AC-FAC",
+      "host": "FG-ADM-PC1",
+      "ip": "172.16.28.90",
+      "protocol": "https",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_AC-FAC</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "FG-ATC",
+      "destination": "AC-VEN",
+      "host": "FG-ATC-PC1",
+      "ip": "172.16.28.28",
+      "protocol": "https",
+      "expected": false,
+      "page": "",
+      "received": false,
+      "passed": true
+    },
+    {
+      "source": "AC-VEN",
+      "destination": "AC-FAC",
+      "host": "AC-VEN-PC1",
+      "ip": "172.16.28.90",
+      "protocol": "https",
+      "expected": false,
+      "page": "",
+      "received": false,
+      "passed": true
+    },
+    {
+      "source": "AC-FAC",
+      "destination": "AC-VEN",
+      "host": "AC-FAC-PC1",
+      "ip": "172.16.28.28",
+      "protocol": "https",
+      "expected": false,
+      "page": "",
+      "received": false,
+      "passed": true
+    },
+    {
+      "source": "ML-SOP",
+      "destination": "FG-ATC",
+      "host": "ML-SOP-PC1",
+      "ip": "172.16.18.151",
+      "protocol": "https",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_FG-ATC</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "ML-SEG",
+      "destination": "AC-VEN",
+      "host": "ML-SEG-PC1",
+      "ip": "172.16.28.28",
+      "protocol": "https",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_AC-VEN</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "FG-ADM",
+      "destination": "ML-SEG",
+      "host": "FG-ADM-PC1",
+      "ip": "172.16.32.77",
+      "protocol": "https",
+      "expected": false,
+      "page": "",
+      "received": false,
+      "passed": true
+    },
+    {
+      "source": "FG-ATC",
+      "destination": "ML-SOP",
+      "host": "FG-ATC-PC1",
+      "ip": "172.16.32.15",
+      "protocol": "https",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_ML-SOP</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "AC-VEN",
+      "destination": "FG-ADM",
+      "host": "AC-VEN-PC1",
+      "ip": "172.16.18.23",
+      "protocol": "https",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_FG-ADM</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "AC-FAC",
+      "destination": "FG-ATC",
+      "host": "AC-FAC-PC1",
+      "ip": "172.16.18.151",
+      "protocol": "https",
+      "expected": false,
+      "page": "",
+      "received": false,
+      "passed": true
+    },
+    {
+      "source": "ML-SOP",
+      "destination": "AC-FAC",
+      "host": "ML-SOP-PC1",
+      "ip": "172.16.28.90",
+      "protocol": "https",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_AC-FAC</body></html>",
+      "received": true,
+      "passed": true
+    },
+    {
+      "source": "ML-SEG",
+      "destination": "FG-ATC",
+      "host": "ML-SEG-PC1",
+      "ip": "172.16.18.151",
+      "protocol": "https",
+      "expected": true,
+      "page": "<html><body>ACL_TEST_FG-ATC</body></html>",
+      "received": true,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,1000 @@
+{
+  "student": "Sergio Sandoval",
+  "carnet": "202010298",
+  "devices": [
+    {
+      "name": "FG-R1",
+      "model": "Router-PT-Empty",
+      "x": 500,
+      "y": 200
+    },
+    {
+      "name": "FG-R2",
+      "model": "Router-PT-Empty",
+      "x": 250,
+      "y": 400
+    },
+    {
+      "name": "FG-R3",
+      "model": "Router-PT-Empty",
+      "x": 750,
+      "y": 400
+    },
+    {
+      "name": "FG-R4",
+      "model": "Router-PT-Empty",
+      "x": 250,
+      "y": 570
+    },
+    {
+      "name": "FG-R5",
+      "model": "Router-PT-Empty",
+      "x": 750,
+      "y": 570
+    },
+    {
+      "name": "FG-ADM-SW1",
+      "model": "2960-24TT",
+      "x": 200,
+      "y": 730,
+      "vlan": 10
+    },
+    {
+      "name": "FG-ADM-SW2",
+      "model": "2960-24TT",
+      "x": 300,
+      "y": 830,
+      "vlan": 10
+    },
+    {
+      "name": "FG-ADM-PC1",
+      "model": "PC-PT",
+      "x": 150,
+      "y": 970,
+      "department": "FG-ADM"
+    },
+    {
+      "name": "FG-ADM-PC2",
+      "model": "PC-PT",
+      "x": 250,
+      "y": 970,
+      "department": "FG-ADM"
+    },
+    {
+      "name": "FG-ADM-PC3",
+      "model": "PC-PT",
+      "x": 350,
+      "y": 970,
+      "department": "FG-ADM"
+    },
+    {
+      "name": "FG-ATC-SW1",
+      "model": "2960-24TT",
+      "x": 700,
+      "y": 730,
+      "vlan": 20
+    },
+    {
+      "name": "FG-ATC-SW2",
+      "model": "2960-24TT",
+      "x": 800,
+      "y": 830,
+      "vlan": 20
+    },
+    {
+      "name": "FG-ATC-PC1",
+      "model": "PC-PT",
+      "x": 650,
+      "y": 970,
+      "department": "FG-ATC"
+    },
+    {
+      "name": "FG-ATC-PC2",
+      "model": "PC-PT",
+      "x": 750,
+      "y": 970,
+      "department": "FG-ATC"
+    },
+    {
+      "name": "FG-ATC-PC3",
+      "model": "PC-PT",
+      "x": 850,
+      "y": 970,
+      "department": "FG-ATC"
+    },
+    {
+      "name": "FG-DNS-WEB",
+      "model": "Server-PT",
+      "x": 1000,
+      "y": 430,
+      "department": "SERVICIOS"
+    },
+    {
+      "name": "AC-R1",
+      "model": "Router-PT-Empty",
+      "x": 2200,
+      "y": 200
+    },
+    {
+      "name": "AC-R2",
+      "model": "Router-PT-Empty",
+      "x": 2000,
+      "y": 400
+    },
+    {
+      "name": "AC-R3",
+      "model": "Router-PT-Empty",
+      "x": 2400,
+      "y": 400
+    },
+    {
+      "name": "AC-R4",
+      "model": "Router-PT-Empty",
+      "x": 2000,
+      "y": 580
+    },
+    {
+      "name": "AC-R5",
+      "model": "Router-PT-Empty",
+      "x": 2400,
+      "y": 580
+    },
+    {
+      "name": "AC-SW1",
+      "model": "2960-24TT",
+      "x": 2000,
+      "y": 740
+    },
+    {
+      "name": "AC-SW2",
+      "model": "2960-24TT",
+      "x": 2400,
+      "y": 740
+    },
+    {
+      "name": "AC-SW3",
+      "model": "2960-24TT",
+      "x": 2200,
+      "y": 900
+    },
+    {
+      "name": "AC-VEN-PC1",
+      "model": "PC-PT",
+      "x": 1950,
+      "y": 1070,
+      "department": "AC-VEN"
+    },
+    {
+      "name": "AC-VEN-PC2",
+      "model": "PC-PT",
+      "x": 2050,
+      "y": 1070,
+      "department": "AC-VEN"
+    },
+    {
+      "name": "AC-VEN-PC3",
+      "model": "PC-PT",
+      "x": 2150,
+      "y": 1070,
+      "department": "AC-VEN"
+    },
+    {
+      "name": "AC-FAC-PC1",
+      "model": "PC-PT",
+      "x": 2300,
+      "y": 1070,
+      "department": "AC-FAC"
+    },
+    {
+      "name": "AC-FAC-PC2",
+      "model": "PC-PT",
+      "x": 2400,
+      "y": 1070,
+      "department": "AC-FAC"
+    },
+    {
+      "name": "AC-FAC-PC3",
+      "model": "PC-PT",
+      "x": 2500,
+      "y": 1070,
+      "department": "AC-FAC"
+    },
+    {
+      "name": "ML-R1",
+      "model": "Router-PT-Empty",
+      "x": 1350,
+      "y": 1230
+    },
+    {
+      "name": "ML-R2",
+      "model": "Router-PT-Empty",
+      "x": 1030,
+      "y": 1450
+    },
+    {
+      "name": "ML-R3",
+      "model": "Router-PT-Empty",
+      "x": 1670,
+      "y": 1450
+    },
+    {
+      "name": "ML-R4",
+      "model": "Router-PT-Empty",
+      "x": 1000,
+      "y": 1260
+    },
+    {
+      "name": "ML-R5",
+      "model": "Router-PT-Empty",
+      "x": 1700,
+      "y": 1260
+    },
+    {
+      "name": "ML-SOP-SW1",
+      "model": "2960-24TT",
+      "x": 980,
+      "y": 1610,
+      "vlan": 50
+    },
+    {
+      "name": "ML-SOP-SW2",
+      "model": "2960-24TT",
+      "x": 1080,
+      "y": 1710,
+      "vlan": 50
+    },
+    {
+      "name": "ML-SOP-PC1",
+      "model": "PC-PT",
+      "x": 930,
+      "y": 1850,
+      "department": "ML-SOP"
+    },
+    {
+      "name": "ML-SOP-PC2",
+      "model": "PC-PT",
+      "x": 1030,
+      "y": 1850,
+      "department": "ML-SOP"
+    },
+    {
+      "name": "ML-SOP-PC3",
+      "model": "PC-PT",
+      "x": 1130,
+      "y": 1850,
+      "department": "ML-SOP"
+    },
+    {
+      "name": "ML-SEG-SW1",
+      "model": "2960-24TT",
+      "x": 1620,
+      "y": 1610,
+      "vlan": 60
+    },
+    {
+      "name": "ML-SEG-SW2",
+      "model": "2960-24TT",
+      "x": 1720,
+      "y": 1710,
+      "vlan": 60
+    },
+    {
+      "name": "ML-SEG-PC1",
+      "model": "PC-PT",
+      "x": 1570,
+      "y": 1850,
+      "department": "ML-SEG"
+    },
+    {
+      "name": "ML-SEG-PC2",
+      "model": "PC-PT",
+      "x": 1670,
+      "y": 1850,
+      "department": "ML-SEG"
+    },
+    {
+      "name": "ML-SEG-PC3",
+      "model": "PC-PT",
+      "x": 1770,
+      "y": 1850,
+      "department": "ML-SEG"
+    },
+    {
+      "name": "ML-WIFI",
+      "model": "Linksys-WRT300N",
+      "x": 780,
+      "y": 1740
+    },
+    {
+      "name": "ML-SOP-LAP1",
+      "model": "Laptop-PT",
+      "x": 720,
+      "y": 1870,
+      "department": "ML-SOP",
+      "wireless": true,
+      "wireless_module": "Linksys-WPC300N",
+      "ssid": "Default",
+      "dhcp": true
+    }
+  ],
+  "modules": [
+    {
+      "device": "FG-R1",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R1",
+      "slot": "1",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R1",
+      "slot": "2",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R1",
+      "slot": "3",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R2",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R2",
+      "slot": "1",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R3",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R3",
+      "slot": "1",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R3",
+      "slot": "6",
+      "module": "PT-ROUTER-NM-1CGE"
+    },
+    {
+      "device": "FG-R4",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R4",
+      "slot": "6",
+      "module": "PT-ROUTER-NM-1CGE"
+    },
+    {
+      "device": "FG-R5",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "FG-R5",
+      "slot": "6",
+      "module": "PT-ROUTER-NM-1CGE"
+    },
+    {
+      "device": "AC-R1",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R1",
+      "slot": "1",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R1",
+      "slot": "2",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R1",
+      "slot": "3",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R2",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R2",
+      "slot": "1",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R2",
+      "slot": "2",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R3",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R3",
+      "slot": "1",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R3",
+      "slot": "2",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R4",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R4",
+      "slot": "1",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R4",
+      "slot": "6",
+      "module": "PT-ROUTER-NM-1CGE"
+    },
+    {
+      "device": "AC-R5",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R5",
+      "slot": "1",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "AC-R5",
+      "slot": "6",
+      "module": "PT-ROUTER-NM-1CGE"
+    },
+    {
+      "device": "ML-R1",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "ML-R1",
+      "slot": "1",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "ML-R1",
+      "slot": "2",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "ML-R1",
+      "slot": "3",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "ML-R1",
+      "slot": "4",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "ML-R1",
+      "slot": "5",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "ML-R2",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "ML-R2",
+      "slot": "6",
+      "module": "PT-ROUTER-NM-1CGE"
+    },
+    {
+      "device": "ML-R3",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "ML-R3",
+      "slot": "6",
+      "module": "PT-ROUTER-NM-1CGE"
+    },
+    {
+      "device": "ML-R4",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    },
+    {
+      "device": "ML-R5",
+      "slot": "0",
+      "module": "PT-ROUTER-NM-1FGE"
+    }
+  ],
+  "links": [
+    {
+      "a": "FG-R1",
+      "ap": "GigabitEthernet2/0",
+      "b": "FG-R2",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "FG-R1",
+      "ap": "GigabitEthernet3/0",
+      "b": "FG-R3",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "FG-R2",
+      "ap": "GigabitEthernet1/0",
+      "b": "FG-R4",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "FG-R3",
+      "ap": "GigabitEthernet1/0",
+      "b": "FG-R5",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "FG-ADM-SW1",
+      "ap": "FastEthernet0/1",
+      "b": "FG-ADM-SW2",
+      "bp": "FastEthernet0/1",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        10
+      ]
+    },
+    {
+      "a": "FG-ADM-SW1",
+      "ap": "FastEthernet0/2",
+      "b": "FG-ADM-SW2",
+      "bp": "FastEthernet0/2",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        10
+      ]
+    },
+    {
+      "a": "FG-R4",
+      "ap": "GigabitEthernet6/0",
+      "b": "FG-ADM-SW1",
+      "bp": "GigabitEthernet0/1",
+      "cable": "straight",
+      "access": 10
+    },
+    {
+      "a": "FG-ADM-SW2",
+      "ap": "FastEthernet0/3",
+      "b": "FG-ADM-PC1",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 10
+    },
+    {
+      "a": "FG-ADM-SW2",
+      "ap": "FastEthernet0/4",
+      "b": "FG-ADM-PC2",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 10
+    },
+    {
+      "a": "FG-ADM-SW2",
+      "ap": "FastEthernet0/5",
+      "b": "FG-ADM-PC3",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 10
+    },
+    {
+      "a": "FG-ATC-SW1",
+      "ap": "FastEthernet0/1",
+      "b": "FG-ATC-SW2",
+      "bp": "FastEthernet0/1",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        20
+      ]
+    },
+    {
+      "a": "FG-ATC-SW1",
+      "ap": "FastEthernet0/2",
+      "b": "FG-ATC-SW2",
+      "bp": "FastEthernet0/2",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        20
+      ]
+    },
+    {
+      "a": "FG-R5",
+      "ap": "GigabitEthernet6/0",
+      "b": "FG-ATC-SW1",
+      "bp": "GigabitEthernet0/1",
+      "cable": "straight",
+      "access": 20
+    },
+    {
+      "a": "FG-ATC-SW2",
+      "ap": "FastEthernet0/3",
+      "b": "FG-ATC-PC1",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 20
+    },
+    {
+      "a": "FG-ATC-SW2",
+      "ap": "FastEthernet0/4",
+      "b": "FG-ATC-PC2",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 20
+    },
+    {
+      "a": "FG-ATC-SW2",
+      "ap": "FastEthernet0/5",
+      "b": "FG-ATC-PC3",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 20
+    },
+    {
+      "a": "FG-R3",
+      "ap": "GigabitEthernet6/0",
+      "b": "FG-DNS-WEB",
+      "bp": "FastEthernet0",
+      "cable": "straight"
+    },
+    {
+      "a": "AC-R1",
+      "ap": "GigabitEthernet2/0",
+      "b": "AC-R2",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "AC-R1",
+      "ap": "GigabitEthernet3/0",
+      "b": "AC-R3",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "AC-R2",
+      "ap": "GigabitEthernet1/0",
+      "b": "AC-R4",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "AC-R2",
+      "ap": "GigabitEthernet2/0",
+      "b": "AC-R5",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "AC-R3",
+      "ap": "GigabitEthernet1/0",
+      "b": "AC-R4",
+      "bp": "GigabitEthernet1/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "AC-R3",
+      "ap": "GigabitEthernet2/0",
+      "b": "AC-R5",
+      "bp": "GigabitEthernet1/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "AC-SW1",
+      "ap": "FastEthernet0/1",
+      "b": "AC-SW2",
+      "bp": "FastEthernet0/1",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        30,
+        40
+      ]
+    },
+    {
+      "a": "AC-SW1",
+      "ap": "FastEthernet0/2",
+      "b": "AC-SW2",
+      "bp": "FastEthernet0/2",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        30,
+        40
+      ]
+    },
+    {
+      "a": "AC-SW1",
+      "ap": "FastEthernet0/3",
+      "b": "AC-SW3",
+      "bp": "FastEthernet0/1",
+      "cable": "cross",
+      "bundle": 2,
+      "vlans": [
+        30,
+        40
+      ]
+    },
+    {
+      "a": "AC-SW1",
+      "ap": "FastEthernet0/4",
+      "b": "AC-SW3",
+      "bp": "FastEthernet0/2",
+      "cable": "cross",
+      "bundle": 2,
+      "vlans": [
+        30,
+        40
+      ]
+    },
+    {
+      "a": "AC-R4",
+      "ap": "GigabitEthernet6/0",
+      "b": "AC-SW1",
+      "bp": "GigabitEthernet0/1",
+      "cable": "straight",
+      "trunk": [
+        30,
+        40
+      ]
+    },
+    {
+      "a": "AC-R5",
+      "ap": "GigabitEthernet6/0",
+      "b": "AC-SW2",
+      "bp": "GigabitEthernet0/1",
+      "cable": "straight",
+      "trunk": [
+        30,
+        40
+      ]
+    },
+    {
+      "a": "AC-SW3",
+      "ap": "FastEthernet0/3",
+      "b": "AC-VEN-PC1",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 30
+    },
+    {
+      "a": "AC-SW3",
+      "ap": "FastEthernet0/4",
+      "b": "AC-VEN-PC2",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 30
+    },
+    {
+      "a": "AC-SW3",
+      "ap": "FastEthernet0/5",
+      "b": "AC-VEN-PC3",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 30
+    },
+    {
+      "a": "AC-SW3",
+      "ap": "FastEthernet0/6",
+      "b": "AC-FAC-PC1",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 40
+    },
+    {
+      "a": "AC-SW3",
+      "ap": "FastEthernet0/7",
+      "b": "AC-FAC-PC2",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 40
+    },
+    {
+      "a": "AC-SW3",
+      "ap": "FastEthernet0/8",
+      "b": "AC-FAC-PC3",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 40
+    },
+    {
+      "a": "ML-R1",
+      "ap": "GigabitEthernet2/0",
+      "b": "ML-R2",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "ML-R1",
+      "ap": "GigabitEthernet3/0",
+      "b": "ML-R3",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "ML-R1",
+      "ap": "GigabitEthernet4/0",
+      "b": "ML-R4",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "ML-R1",
+      "ap": "GigabitEthernet5/0",
+      "b": "ML-R5",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber"
+    },
+    {
+      "a": "ML-SOP-SW1",
+      "ap": "FastEthernet0/1",
+      "b": "ML-SOP-SW2",
+      "bp": "FastEthernet0/1",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        50
+      ]
+    },
+    {
+      "a": "ML-SOP-SW1",
+      "ap": "FastEthernet0/2",
+      "b": "ML-SOP-SW2",
+      "bp": "FastEthernet0/2",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        50
+      ]
+    },
+    {
+      "a": "ML-R2",
+      "ap": "GigabitEthernet6/0",
+      "b": "ML-SOP-SW1",
+      "bp": "GigabitEthernet0/1",
+      "cable": "straight",
+      "access": 50
+    },
+    {
+      "a": "ML-SOP-SW2",
+      "ap": "FastEthernet0/3",
+      "b": "ML-SOP-PC1",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 50
+    },
+    {
+      "a": "ML-SOP-SW2",
+      "ap": "FastEthernet0/4",
+      "b": "ML-SOP-PC2",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 50
+    },
+    {
+      "a": "ML-SOP-SW2",
+      "ap": "FastEthernet0/5",
+      "b": "ML-SOP-PC3",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 50
+    },
+    {
+      "a": "ML-SEG-SW1",
+      "ap": "FastEthernet0/1",
+      "b": "ML-SEG-SW2",
+      "bp": "FastEthernet0/1",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        60
+      ]
+    },
+    {
+      "a": "ML-SEG-SW1",
+      "ap": "FastEthernet0/2",
+      "b": "ML-SEG-SW2",
+      "bp": "FastEthernet0/2",
+      "cable": "cross",
+      "bundle": 1,
+      "vlans": [
+        60
+      ]
+    },
+    {
+      "a": "ML-R3",
+      "ap": "GigabitEthernet6/0",
+      "b": "ML-SEG-SW1",
+      "bp": "GigabitEthernet0/1",
+      "cable": "straight",
+      "access": 60
+    },
+    {
+      "a": "ML-SEG-SW2",
+      "ap": "FastEthernet0/3",
+      "b": "ML-SEG-PC1",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 60
+    },
+    {
+      "a": "ML-SEG-SW2",
+      "ap": "FastEthernet0/4",
+      "b": "ML-SEG-PC2",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 60
+    },
+    {
+      "a": "ML-SEG-SW2",
+      "ap": "FastEthernet0/5",
+      "b": "ML-SEG-PC3",
+      "bp": "FastEthernet0",
+      "cable": "straight",
+      "access": 60
+    },
+    {
+      "a": "ML-SOP-SW2",
+      "ap": "FastEthernet0/6",
+      "b": "ML-WIFI",
+      "bp": "Ethernet 1",
+      "cable": "straight",
+      "access": 50
+    },
+    {
+      "a": "FG-R1",
+      "ap": "GigabitEthernet0/0",
+      "b": "AC-R1",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "bgp": true
+    },
+    {
+      "a": "FG-R1",
+      "ap": "GigabitEthernet1/0",
+      "b": "ML-R1",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "bgp": true
+    },
+    {
+      "a": "AC-R1",
+      "ap": "GigabitEthernet1/0",
+      "b": "ML-R1",
+      "bp": "GigabitEthernet1/0",
+      "cable": "fiber",
+      "bgp": true
+    }
+  ]
+}

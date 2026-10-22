@@ -1,0 +1,545 @@
+{
+  "interfaces": [
+    {
+      "device": "FG-R1",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.1",
+      "mask": "255.255.255.252",
+      "description": "AC-R1"
+    },
+    {
+      "device": "AC-R1",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.2",
+      "mask": "255.255.255.252",
+      "description": "FG-R1"
+    },
+    {
+      "device": "FG-R1",
+      "interface": "GigabitEthernet1/0",
+      "ip": "192.168.98.5",
+      "mask": "255.255.255.252",
+      "description": "ML-R1"
+    },
+    {
+      "device": "ML-R1",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.6",
+      "mask": "255.255.255.252",
+      "description": "FG-R1"
+    },
+    {
+      "device": "AC-R1",
+      "interface": "GigabitEthernet1/0",
+      "ip": "192.168.98.9",
+      "mask": "255.255.255.252",
+      "description": "ML-R1"
+    },
+    {
+      "device": "ML-R1",
+      "interface": "GigabitEthernet1/0",
+      "ip": "192.168.98.10",
+      "mask": "255.255.255.252",
+      "description": "AC-R1"
+    },
+    {
+      "device": "FG-R1",
+      "interface": "GigabitEthernet2/0",
+      "ip": "192.168.98.17",
+      "mask": "255.255.255.252",
+      "description": "FG-R2"
+    },
+    {
+      "device": "FG-R2",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.18",
+      "mask": "255.255.255.252",
+      "description": "FG-R1"
+    },
+    {
+      "device": "FG-R1",
+      "interface": "GigabitEthernet3/0",
+      "ip": "192.168.98.21",
+      "mask": "255.255.255.252",
+      "description": "FG-R3"
+    },
+    {
+      "device": "FG-R3",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.22",
+      "mask": "255.255.255.252",
+      "description": "FG-R1"
+    },
+    {
+      "device": "FG-R2",
+      "interface": "GigabitEthernet1/0",
+      "ip": "192.168.98.25",
+      "mask": "255.255.255.252",
+      "description": "FG-R4"
+    },
+    {
+      "device": "FG-R4",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.26",
+      "mask": "255.255.255.252",
+      "description": "FG-R2"
+    },
+    {
+      "device": "FG-R3",
+      "interface": "GigabitEthernet1/0",
+      "ip": "192.168.98.29",
+      "mask": "255.255.255.252",
+      "description": "FG-R5"
+    },
+    {
+      "device": "FG-R5",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.30",
+      "mask": "255.255.255.252",
+      "description": "FG-R3"
+    },
+    {
+      "device": "AC-R1",
+      "interface": "GigabitEthernet2/0",
+      "ip": "192.168.98.33",
+      "mask": "255.255.255.252",
+      "description": "AC-R2"
+    },
+    {
+      "device": "AC-R2",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.34",
+      "mask": "255.255.255.252",
+      "description": "AC-R1"
+    },
+    {
+      "device": "AC-R1",
+      "interface": "GigabitEthernet3/0",
+      "ip": "192.168.98.37",
+      "mask": "255.255.255.252",
+      "description": "AC-R3"
+    },
+    {
+      "device": "AC-R3",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.38",
+      "mask": "255.255.255.252",
+      "description": "AC-R1"
+    },
+    {
+      "device": "AC-R2",
+      "interface": "GigabitEthernet1/0",
+      "ip": "192.168.98.41",
+      "mask": "255.255.255.252",
+      "description": "AC-R4"
+    },
+    {
+      "device": "AC-R4",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.42",
+      "mask": "255.255.255.252",
+      "description": "AC-R2"
+    },
+    {
+      "device": "AC-R2",
+      "interface": "GigabitEthernet2/0",
+      "ip": "192.168.98.45",
+      "mask": "255.255.255.252",
+      "description": "AC-R5"
+    },
+    {
+      "device": "AC-R5",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.46",
+      "mask": "255.255.255.252",
+      "description": "AC-R2"
+    },
+    {
+      "device": "AC-R3",
+      "interface": "GigabitEthernet1/0",
+      "ip": "192.168.98.49",
+      "mask": "255.255.255.252",
+      "description": "AC-R4"
+    },
+    {
+      "device": "AC-R4",
+      "interface": "GigabitEthernet1/0",
+      "ip": "192.168.98.50",
+      "mask": "255.255.255.252",
+      "description": "AC-R3"
+    },
+    {
+      "device": "AC-R3",
+      "interface": "GigabitEthernet2/0",
+      "ip": "192.168.98.53",
+      "mask": "255.255.255.252",
+      "description": "AC-R5"
+    },
+    {
+      "device": "AC-R5",
+      "interface": "GigabitEthernet1/0",
+      "ip": "192.168.98.54",
+      "mask": "255.255.255.252",
+      "description": "AC-R3"
+    },
+    {
+      "device": "ML-R1",
+      "interface": "GigabitEthernet2/0",
+      "ip": "192.168.98.65",
+      "mask": "255.255.255.252",
+      "description": "ML-R2"
+    },
+    {
+      "device": "ML-R2",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.66",
+      "mask": "255.255.255.252",
+      "description": "ML-R1"
+    },
+    {
+      "device": "ML-R1",
+      "interface": "GigabitEthernet3/0",
+      "ip": "192.168.98.69",
+      "mask": "255.255.255.252",
+      "description": "ML-R3"
+    },
+    {
+      "device": "ML-R3",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.70",
+      "mask": "255.255.255.252",
+      "description": "ML-R1"
+    },
+    {
+      "device": "ML-R1",
+      "interface": "GigabitEthernet4/0",
+      "ip": "192.168.98.73",
+      "mask": "255.255.255.252",
+      "description": "ML-R4"
+    },
+    {
+      "device": "ML-R4",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.74",
+      "mask": "255.255.255.252",
+      "description": "ML-R1"
+    },
+    {
+      "device": "ML-R1",
+      "interface": "GigabitEthernet5/0",
+      "ip": "192.168.98.77",
+      "mask": "255.255.255.252",
+      "description": "ML-R5"
+    },
+    {
+      "device": "ML-R5",
+      "interface": "GigabitEthernet0/0",
+      "ip": "192.168.98.78",
+      "mask": "255.255.255.252",
+      "description": "ML-R1"
+    },
+    {
+      "device": "FG-R4",
+      "interface": "GigabitEthernet6/0",
+      "ip": "172.16.18.1",
+      "mask": "255.255.255.128",
+      "description": "Administracion"
+    },
+    {
+      "device": "FG-R5",
+      "interface": "GigabitEthernet6/0",
+      "ip": "172.16.18.129",
+      "mask": "255.255.255.128",
+      "description": "Atencion_al_Cliente"
+    },
+    {
+      "device": "AC-R4",
+      "interface": "GigabitEthernet6/0.30",
+      "ip": "172.16.28.2",
+      "mask": "255.255.255.192",
+      "description": "Ventas"
+    },
+    {
+      "device": "AC-R5",
+      "interface": "GigabitEthernet6/0.30",
+      "ip": "172.16.28.3",
+      "mask": "255.255.255.192",
+      "description": "Ventas"
+    },
+    {
+      "device": "AC-R4",
+      "interface": "GigabitEthernet6/0.40",
+      "ip": "172.16.28.66",
+      "mask": "255.255.255.192",
+      "description": "Facturacion"
+    },
+    {
+      "device": "AC-R5",
+      "interface": "GigabitEthernet6/0.40",
+      "ip": "172.16.28.67",
+      "mask": "255.255.255.192",
+      "description": "Facturacion"
+    },
+    {
+      "device": "ML-R2",
+      "interface": "GigabitEthernet6/0",
+      "ip": "172.16.32.1",
+      "mask": "255.255.255.192",
+      "description": "Soporte"
+    },
+    {
+      "device": "ML-R3",
+      "interface": "GigabitEthernet6/0",
+      "ip": "172.16.32.65",
+      "mask": "255.255.255.192",
+      "description": "Seguridad"
+    },
+    {
+      "device": "FG-R3",
+      "interface": "GigabitEthernet6/0",
+      "ip": "192.168.98.241",
+      "mask": "255.255.255.252",
+      "description": "DNS_HTTP_DHCP_CLIENT"
+    },
+    {
+      "device": "AC-R5",
+      "interface": "Loopback0",
+      "ip": "192.168.98.254",
+      "mask": "255.255.255.255",
+      "description": "DHCP_CENTRAL"
+    },
+    {
+      "device": "ML-R4",
+      "interface": "Loopback0",
+      "ip": "192.168.99.4",
+      "mask": "255.255.255.255",
+      "description": "SPOKE_INFRAESTRUCTURA"
+    },
+    {
+      "device": "ML-R5",
+      "interface": "Loopback0",
+      "ip": "192.168.99.5",
+      "mask": "255.255.255.255",
+      "description": "SPOKE_INFRAESTRUCTURA"
+    }
+  ],
+  "departments": {
+    "FG-ADM": [
+      "172.16.18.0/25",
+      10,
+      "FG-R4",
+      "172.16.18.1",
+      "Administracion"
+    ],
+    "FG-ATC": [
+      "172.16.18.128/25",
+      20,
+      "FG-R5",
+      "172.16.18.129",
+      "Atencion_al_Cliente"
+    ],
+    "AC-VEN": [
+      "172.16.28.0/26",
+      30,
+      "AC-R4",
+      "172.16.28.1",
+      "Ventas"
+    ],
+    "AC-FAC": [
+      "172.16.28.64/26",
+      40,
+      "AC-R4",
+      "172.16.28.65",
+      "Facturacion"
+    ],
+    "ML-SOP": [
+      "172.16.32.0/26",
+      50,
+      "ML-R2",
+      "172.16.32.1",
+      "Soporte"
+    ],
+    "ML-SEG": [
+      "172.16.32.64/26",
+      60,
+      "ML-R3",
+      "172.16.32.65",
+      "Seguridad"
+    ]
+  },
+  "fiber_links": [
+    {
+      "a": "FG-R1",
+      "ap": "GigabitEthernet2/0",
+      "b": "FG-R2",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.16/30",
+      "a_ip": "192.168.98.17",
+      "b_ip": "192.168.98.18"
+    },
+    {
+      "a": "FG-R1",
+      "ap": "GigabitEthernet3/0",
+      "b": "FG-R3",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.20/30",
+      "a_ip": "192.168.98.21",
+      "b_ip": "192.168.98.22"
+    },
+    {
+      "a": "FG-R2",
+      "ap": "GigabitEthernet1/0",
+      "b": "FG-R4",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.24/30",
+      "a_ip": "192.168.98.25",
+      "b_ip": "192.168.98.26"
+    },
+    {
+      "a": "FG-R3",
+      "ap": "GigabitEthernet1/0",
+      "b": "FG-R5",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.28/30",
+      "a_ip": "192.168.98.29",
+      "b_ip": "192.168.98.30"
+    },
+    {
+      "a": "AC-R1",
+      "ap": "GigabitEthernet2/0",
+      "b": "AC-R2",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.32/30",
+      "a_ip": "192.168.98.33",
+      "b_ip": "192.168.98.34"
+    },
+    {
+      "a": "AC-R1",
+      "ap": "GigabitEthernet3/0",
+      "b": "AC-R3",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.36/30",
+      "a_ip": "192.168.98.37",
+      "b_ip": "192.168.98.38"
+    },
+    {
+      "a": "AC-R2",
+      "ap": "GigabitEthernet1/0",
+      "b": "AC-R4",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.40/30",
+      "a_ip": "192.168.98.41",
+      "b_ip": "192.168.98.42"
+    },
+    {
+      "a": "AC-R2",
+      "ap": "GigabitEthernet2/0",
+      "b": "AC-R5",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.44/30",
+      "a_ip": "192.168.98.45",
+      "b_ip": "192.168.98.46"
+    },
+    {
+      "a": "AC-R3",
+      "ap": "GigabitEthernet1/0",
+      "b": "AC-R4",
+      "bp": "GigabitEthernet1/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.48/30",
+      "a_ip": "192.168.98.49",
+      "b_ip": "192.168.98.50"
+    },
+    {
+      "a": "AC-R3",
+      "ap": "GigabitEthernet2/0",
+      "b": "AC-R5",
+      "bp": "GigabitEthernet1/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.52/30",
+      "a_ip": "192.168.98.53",
+      "b_ip": "192.168.98.54"
+    },
+    {
+      "a": "ML-R1",
+      "ap": "GigabitEthernet2/0",
+      "b": "ML-R2",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.64/30",
+      "a_ip": "192.168.98.65",
+      "b_ip": "192.168.98.66"
+    },
+    {
+      "a": "ML-R1",
+      "ap": "GigabitEthernet3/0",
+      "b": "ML-R3",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.68/30",
+      "a_ip": "192.168.98.69",
+      "b_ip": "192.168.98.70"
+    },
+    {
+      "a": "ML-R1",
+      "ap": "GigabitEthernet4/0",
+      "b": "ML-R4",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.72/30",
+      "a_ip": "192.168.98.73",
+      "b_ip": "192.168.98.74"
+    },
+    {
+      "a": "ML-R1",
+      "ap": "GigabitEthernet5/0",
+      "b": "ML-R5",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "subnet": "192.168.98.76/30",
+      "a_ip": "192.168.98.77",
+      "b_ip": "192.168.98.78"
+    },
+    {
+      "a": "FG-R1",
+      "ap": "GigabitEthernet0/0",
+      "b": "AC-R1",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "bgp": true,
+      "subnet": "192.168.98.0/30",
+      "a_ip": "192.168.98.1",
+      "b_ip": "192.168.98.2"
+    },
+    {
+      "a": "FG-R1",
+      "ap": "GigabitEthernet1/0",
+      "b": "ML-R1",
+      "bp": "GigabitEthernet0/0",
+      "cable": "fiber",
+      "bgp": true,
+      "subnet": "192.168.98.4/30",
+      "a_ip": "192.168.98.5",
+      "b_ip": "192.168.98.6"
+    },
+    {
+      "a": "AC-R1",
+      "ap": "GigabitEthernet1/0",
+      "b": "ML-R1",
+      "bp": "GigabitEthernet1/0",
+      "cable": "fiber",
+      "bgp": true,
+      "subnet": "192.168.98.8/30",
+      "a_ip": "192.168.98.9",
+      "b_ip": "192.168.98.10"
+    }
+  ]
+}

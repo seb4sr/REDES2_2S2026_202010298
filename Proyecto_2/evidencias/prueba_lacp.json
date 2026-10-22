@@ -1,0 +1,103 @@
+{
+  "with_one_member_down": [
+    {
+      "name": "FG-ADM-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 1\nNumber of aggregators:           1\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(D) Fa0/2(P) \n\n"
+      }
+    },
+    {
+      "name": "FG-ATC-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 1\nNumber of aggregators:           1\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(D) Fa0/2(P) \n\n"
+      }
+    },
+    {
+      "name": "AC-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 2\nNumber of aggregators:           2\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(D) Fa0/2(P) \n2      Po2(SU)           LACP   Fa0/3(D) Fa0/4(P) \n\n"
+      }
+    },
+    {
+      "name": "ML-SOP-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 1\nNumber of aggregators:           1\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(D) Fa0/2(P) \n\n"
+      }
+    },
+    {
+      "name": "ML-SEG-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 1\nNumber of aggregators:           1\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(D) Fa0/2(P) \n\n"
+      }
+    }
+  ],
+  "pings": [
+    {
+      "name": "FG-ADM-PC1",
+      "output": "Ping statistics for 192.168.98.242:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 41ms, Average = 13ms\n\nC:\\>"
+    },
+    {
+      "name": "FG-ATC-PC1",
+      "output": "Ping statistics for 192.168.98.242:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 20ms, Average = 9ms\n\nC:\\>"
+    },
+    {
+      "name": "AC-VEN-PC1",
+      "output": "Ping statistics for 192.168.98.242:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 12ms, Average = 5ms\n\nC:\\>"
+    },
+    {
+      "name": "AC-FAC-PC1",
+      "output": "Ping statistics for 192.168.98.242:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 0ms, Average = 0ms\n\nC:\\>"
+    },
+    {
+      "name": "ML-SOP-PC1",
+      "output": "Ping statistics for 192.168.98.242:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 30ms, Average = 8ms\n\nC:\\>"
+    },
+    {
+      "name": "ML-SEG-PC1",
+      "output": "Ping statistics for 192.168.98.242:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 8ms, Average = 3ms\n\nC:\\>"
+    }
+  ],
+  "timeouts": [],
+  "restored": [
+    {
+      "name": "FG-ADM-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 1\nNumber of aggregators:           1\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(I) Fa0/2(P) \n\n"
+      }
+    },
+    {
+      "name": "FG-ATC-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 1\nNumber of aggregators:           1\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(I) Fa0/2(P) \n\n"
+      }
+    },
+    {
+      "name": "AC-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 2\nNumber of aggregators:           2\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(I) Fa0/2(P) \n2      Po2(SU)           LACP   Fa0/3(I) Fa0/4(P) \n\n"
+      }
+    },
+    {
+      "name": "ML-SOP-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 1\nNumber of aggregators:           1\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(I) Fa0/2(P) \n\n"
+      }
+    },
+    {
+      "name": "ML-SEG-SW1",
+      "summary": {
+        "first": 0,
+        "second": "Flags:  D - down        P - in port-channel\n        I - stand-alone s - suspended\n        H - Hot-standby (LACP only)\n        R - Layer3      S - Layer2\n        U - in use      f - failed to allocate aggregator\n        u - unsuitable for bundling\n        w - waiting to be aggregated\n        d - default port\n\n\nNumber of channel-groups in use: 1\nNumber of aggregators:           1\n\nGroup  Port-channel  Protocol    Ports\n------+-------------+-----------+----------------------------------------------\n\n1      Po1(SU)           LACP   Fa0/1(I) Fa0/2(P) \n\n"
+      }
+    }
+  ]
+}
