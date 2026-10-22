@@ -8,3 +8,5 @@
 *.json text eol=lf
 
 *.pcapng binary
+Wireshark/*.log -text -whitespace
+Wireshark/entorno_vm.txt -text -whitespace
