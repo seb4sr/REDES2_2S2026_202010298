@@ -2,7 +2,7 @@
 
 **Estudiante:** Sergio Sandoval · **Carné:** 202010298 · Redes de Computadoras 2, segundo semestre 2026.
 
-Estado: **red implementada y validada en Packet Tracer**. La captura real de Wireshark y su análisis están completos: 42 tramas de una VM Ubuntu en VMware, con los cuatro escenarios requeridos. La [auditoría del enunciado](AUDITORIA_ENUNCIADO.md) identifica los pendientes de capturas de comunicación en Packet Tracer, publicación remota y entrega en UEDI. No se presenta la entrega administrativa como completada.
+Estado: **red implementada y validada en Packet Tracer**. La captura real de Wireshark y su análisis están completos: 42 tramas de una VM Ubuntu en VMware, con los cuatro escenarios requeridos. La [auditoría del enunciado](AUDITORIA_ENUNCIADO.md) identifica la documentación visual completa y los pendientes administrativos de publicación remota, verificación del acceso del auxiliar y entrega en UEDI. No se presenta la entrega administrativa como completada.
 
 Pruebas registradas: 20 hosts con DHCP, 30 casos de ping, 24 casos de ACL sobre HTTP/HTTPS, 14 accesos al sitio central, conmutación HSRP con ping 4/4 y falla de un miembro de cada uno de seis grupos LACP con seis pings 4/4. Ver [resultados y evidencia](evidencias/RESULTADOS.md).
 

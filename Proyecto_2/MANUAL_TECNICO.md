@@ -235,3 +235,13 @@ flowchart TB
 | AC-R1 | GigabitEthernet1/0 | 192.168.98.9 | ML-R1 | GigabitEthernet1/0 | 192.168.98.10 | 192.168.98.8/30 |
 
 Las configuraciones exactas por interfaz, incluidas las LAN, se consultan en `diseno/direccionamiento.json` y `configs_aplicadas/`.
+
+## Capturas de comunicación aportadas
+
+Se revisaron ocho imágenes originales de Packet Tracer: ping inter-ISP, bloqueo hacia Seguridad, sitio HTTP y HTTPS, DHCP de Seguridad y laptop WiFi, HSRP y LACP. La [revisión visual con todas las imágenes](evidencias/capturas_comunicacion/REVISION_CAPTURAS.md) explica qué acredita cada una y sus límites. La evidencia visual de comunicación está completa. La captura HSRP muestra roles normales y se complementa con la prueba de conmutación registrada.
+
+### Acceso HTTPS al servidor central
+
+La siguiente captura de AC-VEN-PC1 muestra `https://www.proyecto2_202010298.com/` y los datos del estudiante y del curso. Complementa la captura HTTP y las pruebas registradas desde los 20 hosts finales.
+
+![Página HTTPS del proyecto desde AC-VEN-PC1](evidencias/capturas_comunicacion/image.png)

@@ -21,7 +21,7 @@ Estas pruebas provienen del simulador. La [captura Wireshark de la VM](../Wiresh
 | Configuración y protocolos | Consultas sin error en los 26 equipos IOS; configuraciones activa/de arranque coinciden | `auditoria/estado_cli.json` |
 | Medio óptico | 17/17 enlaces entre routers con tipo óptico 8117 | `auditoria/estado_cli.json` |
 
-Los seis servidores usados en la auditoría de ACL se retiraron al terminar. El sitio central se restauró a su página original después de los marcadores de prueba. Los resultados son registros reales, pero **faltan capturas de pantalla de ping y navegador de Packet Tracer** para satisfacer literalmente el entregable documental de 4.10. Consultar [la auditoría completa](../AUDITORIA_ENUNCIADO.md).
+Los seis servidores usados en la auditoría de ACL se retiraron al terminar. El sitio central se restauró a su página original después de los marcadores de prueba. Los resultados son registros reales y **se añadieron ocho capturas de Packet Tracer, incluidas HTTP y HTTPS**, para completar la evidencia visual de comunicación de 4.10. Consultar [la auditoría completa](../AUDITORIA_ENUNCIADO.md).
 
 ## Direcciones realmente concedidas
 
@@ -109,3 +109,7 @@ Todos los puertos usados para la prueba LACP se restauraron. AC-R4 se volvió a 
 ## Captura real de la topología
 
 ![Topología completa](topologia_completa.png)
+
+## Revisión de las capturas aportadas
+
+Ver [las ocho imágenes y su análisis](capturas_comunicacion/REVISION_CAPTURAS.md). El ping inter-ISP final es 4/4, pero en la misma imagen hay una ejecución previa 2/4: no acredita continuidad sin pérdidas. HSRP muestra roles normales, no por sí solo la falla controlada.

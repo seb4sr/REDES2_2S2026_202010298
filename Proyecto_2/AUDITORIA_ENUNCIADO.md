@@ -2,7 +2,7 @@
 
 **Estudiante:** Sergio Sandoval, 202010298. **Revisión:** 22/10/2026, Guatemala.
 
-**Dictamen:** la configuración técnica dispone de pruebas satisfactorias, pero la entrega no debe marcarse como cerrada mientras falten las capturas de pantalla de comunicación en Packet Tracer, la publicación de los commits, la verificación del acceso del auxiliar y la entrega puntual en UEDI. La exposición y la evaluación oral se realizan durante la calificación y no se pueden dar por aprobadas a partir de los archivos.
+**Dictamen:** la configuración técnica dispone de pruebas satisfactorias, pero la entrega no debe marcarse como cerrada mientras falte la publicación de los commits, la verificación del acceso del auxiliar y la entrega puntual en UEDI. La exposición y la evaluación oral se realizan durante la calificación y no se pueden dar por aprobadas a partir de los archivos.
 
 Se revisaron las 18 páginas de `975_Proyecto_2_2S2026.pdf`, incluyendo las tablas, el dibujo de interconexión de la página 5, la política de la página 7, las condiciones de acceso a calificación y cada criterio de la rúbrica. Las instrucciones del documento se usan como criterios de esta auditoría; no equivalen a autorización para publicar o presentar la entrega en nombre del estudiante.
 
@@ -57,7 +57,7 @@ La sección 8.1, página 13, indica cero puntos si no se cumplen sus condiciones
 | 4.8, 9; 1.4, 15 | Explicar paquetes en modo simulación PT | Guía preparada para DHCP DORA, DNS, HTTP/HTTPS, OSPF, EIGRP y BGP. La evaluación oral en vivo queda por realizar. |
 | 4.9, 10 | Packet Tracer ≥8.2 y Wireshark | Usados PT 9.0.1 y Wireshark 4.2.2; usar 9.0.1 en la evaluación para evitar incompatibilidad de apertura con versiones anteriores. |
 | 4.10, 11 | Manual: diagramas por ISP, subneteo, direcciones y configuraciones | Tres diagramas Mermaid, tablas de subredes y 17 enlaces, JSON de interfaces, 26 configuraciones efectivas IOS y estado de servicios en evidencia XML. |
-| 4.10, 11 | Capturas de pantalla de pruebas de comunicación | **Pendiente documental:** hay topología real, cinco imágenes Wireshark y registros de pruebas, pero faltan pantallas de ping y navegador de Packet Tracer. Los JSON no sustituyen ese requisito literal. |
+| 4.10, 11 | Capturas de pantalla de pruebas de comunicación | **Completo:** ocho capturas aportadas y revisadas cubren ping, bloqueo, HTTP, HTTPS, DHCP, WiFi, HSRP y LACP. Ver evidencias/capturas_comunicacion/REVISION_CAPTURAS.md. |
 | 4.10, 11 | Repositorio con acceso del auxiliar y enlace UEDI | **Pendiente:** remoto comprobado aún en commit del Proyecto 1. Acceso del auxiliar no comprobable porque el PDF lo identifica como `XXXX`. |
 
 ## 3. Tabla completa de comunicación
@@ -95,7 +95,7 @@ No se atribuye una nota automática. La rúbrica se divide en 40 puntos de habil
 | Criterio | Máximo | Estado auditado y riesgo restante |
 |---|---:|---|
 | 1.1 Presentación ejecutiva | 10 | Archivo completo. Falta exponer personalmente entre 5 y 10 minutos. |
-| 1.2 Manual técnico | 8 | Contenido técnico completo; faltan capturas de comunicación en PT para cumplir también 4.10. |
+| 1.2 Manual técnico | 8 | Contenido técnico y ocho capturas incorporadas, incluida la pantalla HTTPS. |
 | 1.3 Wireshark | 14 | Cuatro escenarios auténticos desde VM, apertura y análisis por capas comprobados. Publicación remota pendiente. |
 | 1.4 Modo simulación | 5 | Guía de explicación preparada. El evaluador elige el paquete y la defensa se realiza en vivo. |
 | 1.5 Seguimiento Git | 3 | Estructura correcta y commits reales; Proyecto 2 desarrollado al final del período. No puede garantizarse máximo por seguimiento progresivo. No se reescribió ni inventó historial. Falta publicar. |
@@ -123,7 +123,7 @@ No se atribuye una nota automática. La rúbrica se divide en 40 puntos de habil
 
 ## 7. Qué falta para poder marcar la entrega como cerrada
 
-1. **Añadir capturas reales de Packet Tracer:** al menos un ping inter-ISP permitido con sus estadísticas, un bloqueo previsto por ACL, y el navegador mostrando el dominio y los datos del estudiante. Recomendado añadir HSRP antes/después, DHCP de la laptop y LACP. Guardarlas en `evidencias/capturas_comunicacion/` e insertarlas o enlazarlas en el manual. La automatización de ventanas de Windows devolvió `Computer Use native pipe is unavailable`; por ello no se fabricaron capturas a partir del texto de los registros.
+1. **Capturas completadas:** ocho imágenes originales revisadas, con ping inter-ISP, bloqueo previsto, navegador HTTP/HTTPS, DHCP, WiFi y estados HSRP/LACP. La captura final `image.png` está insertada directamente en el manual. Esta parte documental queda cerrada; las limitaciones de cada imagen permanecen explicadas en su revisión.
 2. **Publicar los commits en GitHub** y verificar desde el remoto que estén presentes el `.pkt`, el PDF, el manual y el `.pcapng`. La VM, discos y clave privada de administración no pertenecen a la entrega del repositorio.
 3. **Comprobar acceso del auxiliar** y entregar el enlace en UEDI dentro del plazo. El identificador del auxiliar y la hora límite deben tomarse del curso, no del marcador `XXXX` del PDF.
 4. **Ensayar y demostrar:** exposición de 5–10 min, único intento formal de ping, análisis del paquete que el evaluador elija y respuestas sobre diseño. Los puntos orales no se pueden certificar anticipadamente.

@@ -11,3 +11,7 @@ El apartado 4.10 del enunciado exige capturas de pantalla de las pruebas de comu
 Usar capturas de la aplicación, sin reemplazar el resultado por texto dibujado ni editar las cifras. Evitar que una ventana tape el comando, la URL o la identidad del equipo. Estas pruebas de preparación se realizan antes del único intento formal de ping que permite el enunciado durante la calificación.
 
 Después de abrir el `.pkt`, esperar convergencia de OSPF/EIGRP/BGP y la adquisición DHCP antes de tomar las capturas. El modo Realtime debe estar activo. No configurar direcciones estáticas para acelerar esa espera.
+
+## Estado final
+
+Completado con ocho capturas originales, incluida `image.png` para HTTPS. Ver `REVISION_CAPTURAS.md` y la sección de capturas del manual. Las instrucciones anteriores se conservan como procedimiento de reproducción.
