@@ -11,30 +11,42 @@ Estas pruebas provienen del simulador. La [captura Wireshark de la VM](../Wiresh
 | HSRP | Apagado real de AC-R4, toma de rol por AC-R5 y ping 4/4 | `prueba_hsrp.json` |
 | LACP | Un miembro fuera de servicio en cada uno de seis grupos, seis pings 4/4 | `prueba_lacp.json` |
 
+## Auditoría adicional del enunciado
+
+| Comprobación | Resultado | Evidencia |
+|---|---|---|
+| ACL HTTP/HTTPS exhaustiva | 60/60 casos: 30 pares dirigidos por cada protocolo, con marcadores únicos | `auditoria_acl_60.json` |
+| Sitio desde todos los hosts | 40/40: HTTP y HTTPS desde 18 PC, laptop y servidor | `auditoria_web_40.json` |
+| Opciones DHCP | 20 hosts dinámicos, con máscara, gateway y DNS del diseño | `auditoria_web_40.json` |
+| Configuración y protocolos | Consultas sin error en los 26 equipos IOS; configuraciones activa/de arranque coinciden | `auditoria/estado_cli.json` |
+| Medio óptico | 17/17 enlaces entre routers con tipo óptico 8117 | `auditoria/estado_cli.json` |
+
+Los seis servidores usados en la auditoría de ACL se retiraron al terminar. El sitio central se restauró a su página original después de los marcadores de prueba. Los resultados son registros reales, pero **faltan capturas de pantalla de ping y navegador de Packet Tracer** para satisfacer literalmente el entregable documental de 4.10. Consultar [la auditoría completa](../AUDITORIA_ENUNCIADO.md).
+
 ## Direcciones realmente concedidas
 
 | Host | Interfaz | Dirección | Máscara | DHCP |
 |---|---|---|---|---|
-| FG-ADM-PC1 | FastEthernet0 | 172.16.18.20 | 255.255.255.128 | Sí |
-| FG-ADM-PC2 | FastEthernet0 | 172.16.18.21 | 255.255.255.128 | Sí |
+| FG-ADM-PC1 | FastEthernet0 | 172.16.18.21 | 255.255.255.128 | Sí |
+| FG-ADM-PC2 | FastEthernet0 | 172.16.18.20 | 255.255.255.128 | Sí |
 | FG-ADM-PC3 | FastEthernet0 | 172.16.18.22 | 255.255.255.128 | Sí |
-| FG-ATC-PC1 | FastEthernet0 | 172.16.18.149 | 255.255.255.128 | Sí |
-| FG-ATC-PC2 | FastEthernet0 | 172.16.18.148 | 255.255.255.128 | Sí |
-| FG-ATC-PC3 | FastEthernet0 | 172.16.18.150 | 255.255.255.128 | Sí |
+| FG-ATC-PC1 | FastEthernet0 | 172.16.18.148 | 255.255.255.128 | Sí |
+| FG-ATC-PC2 | FastEthernet0 | 172.16.18.150 | 255.255.255.128 | Sí |
+| FG-ATC-PC3 | FastEthernet0 | 172.16.18.149 | 255.255.255.128 | Sí |
 | FG-DNS-WEB | FastEthernet0 | 192.168.98.242 | 255.255.255.252 | Sí |
-| AC-VEN-PC1 | FastEthernet0 | 172.16.28.23 | 255.255.255.192 | Sí |
-| AC-VEN-PC2 | FastEthernet0 | 172.16.28.21 | 255.255.255.192 | Sí |
-| AC-VEN-PC3 | FastEthernet0 | 172.16.28.25 | 255.255.255.192 | Sí |
-| AC-FAC-PC1 | FastEthernet0 | 172.16.28.87 | 255.255.255.192 | Sí |
-| AC-FAC-PC2 | FastEthernet0 | 172.16.28.85 | 255.255.255.192 | Sí |
-| AC-FAC-PC3 | FastEthernet0 | 172.16.28.86 | 255.255.255.192 | Sí |
-| ML-SOP-PC1 | FastEthernet0 | 172.16.32.13 | 255.255.255.192 | Sí |
-| ML-SOP-PC2 | FastEthernet0 | 172.16.32.11 | 255.255.255.192 | Sí |
-| ML-SOP-PC3 | FastEthernet0 | 172.16.32.12 | 255.255.255.192 | Sí |
-| ML-SEG-PC1 | FastEthernet0 | 172.16.32.74 | 255.255.255.192 | Sí |
-| ML-SEG-PC2 | FastEthernet0 | 172.16.32.75 | 255.255.255.192 | Sí |
+| AC-VEN-PC1 | FastEthernet0 | 172.16.28.21 | 255.255.255.192 | Sí |
+| AC-VEN-PC2 | FastEthernet0 | 172.16.28.22 | 255.255.255.192 | Sí |
+| AC-VEN-PC3 | FastEthernet0 | 172.16.28.23 | 255.255.255.192 | Sí |
+| AC-FAC-PC1 | FastEthernet0 | 172.16.28.85 | 255.255.255.192 | Sí |
+| AC-FAC-PC2 | FastEthernet0 | 172.16.28.84 | 255.255.255.192 | Sí |
+| AC-FAC-PC3 | FastEthernet0 | 172.16.28.88 | 255.255.255.192 | Sí |
+| ML-SOP-PC1 | FastEthernet0 | 172.16.32.11 | 255.255.255.192 | Sí |
+| ML-SOP-PC2 | FastEthernet0 | 172.16.32.13 | 255.255.255.192 | Sí |
+| ML-SOP-PC3 | FastEthernet0 | 172.16.32.10 | 255.255.255.192 | Sí |
+| ML-SEG-PC1 | FastEthernet0 | 172.16.32.75 | 255.255.255.192 | Sí |
+| ML-SEG-PC2 | FastEthernet0 | 172.16.32.74 | 255.255.255.192 | Sí |
 | ML-SEG-PC3 | FastEthernet0 | 172.16.32.76 | 255.255.255.192 | Sí |
-| ML-SOP-LAP1 | Wireless0 | 172.16.32.14 | 255.255.255.192 | Sí |
+| ML-SOP-LAP1 | Wireless0 | 172.16.32.12 | 255.255.255.192 | Sí |
 
 ## Matriz final de ping
 

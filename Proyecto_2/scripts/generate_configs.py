@@ -36,6 +36,12 @@ for l in sorted(fiber,key=lambda l:not l.get('bgp',False)):
  addr(l['a'],l['ap'],l['a_ip'],'255.255.255.252',l['b'])
  addr(l['b'],l['bp'],l['b_ip'],'255.255.255.252',l['a'])
 
+# Dedicated optical /30 links have exactly two routers; avoid DR election delay.
+for l in fiber:
+ if not l.get('bgp') and l['a'].startswith(('FG','AC')):
+  for n,port in [(l['a'],l['ap']),(l['b'],l['bp'])]:
+   add(n,'interface '+port,'ip ospf network point-to-point','exit')
+
 # Unique positive link costs provide deterministic primary/backup OSPF paths.
 for i,l in enumerate([l for l in fiber if l['a'].startswith('AC') and not l.get('bgp')]):
  for n,port in [(l['a'],l['ap']),(l['b'],l['bp'])]:

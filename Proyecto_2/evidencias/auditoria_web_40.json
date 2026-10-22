@@ -1,0 +1,546 @@
+{
+  "hosts": [
+    {
+      "name": "FG-ADM-PC1",
+      "gateway": [
+        "172.16.18.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.18.21",
+      "mask": "255.255.255.128",
+      "dhcp": true
+    },
+    {
+      "name": "FG-ADM-PC2",
+      "gateway": [
+        "172.16.18.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.18.20",
+      "mask": "255.255.255.128",
+      "dhcp": true
+    },
+    {
+      "name": "FG-ADM-PC3",
+      "gateway": [
+        "172.16.18.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.18.22",
+      "mask": "255.255.255.128",
+      "dhcp": true
+    },
+    {
+      "name": "FG-ATC-PC1",
+      "gateway": [
+        "172.16.18.129"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.18.148",
+      "mask": "255.255.255.128",
+      "dhcp": true
+    },
+    {
+      "name": "FG-ATC-PC2",
+      "gateway": [
+        "172.16.18.129"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.18.150",
+      "mask": "255.255.255.128",
+      "dhcp": true
+    },
+    {
+      "name": "FG-ATC-PC3",
+      "gateway": [
+        "172.16.18.129"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.18.149",
+      "mask": "255.255.255.128",
+      "dhcp": true
+    },
+    {
+      "name": "FG-DNS-WEB",
+      "gateway": [
+        "192.168.98.241"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "192.168.98.242",
+      "mask": "255.255.255.252",
+      "dhcp": true
+    },
+    {
+      "name": "AC-VEN-PC1",
+      "gateway": [
+        "172.16.28.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "172.16.28.3"
+      ],
+      "ip": "172.16.28.21",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "AC-VEN-PC2",
+      "gateway": [
+        "172.16.28.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "172.16.28.3"
+      ],
+      "ip": "172.16.28.22",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "AC-VEN-PC3",
+      "gateway": [
+        "172.16.28.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "172.16.28.3"
+      ],
+      "ip": "172.16.28.23",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "AC-FAC-PC1",
+      "gateway": [
+        "172.16.28.65"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "172.16.28.67"
+      ],
+      "ip": "172.16.28.85",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "AC-FAC-PC2",
+      "gateway": [
+        "172.16.28.65"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "172.16.28.67"
+      ],
+      "ip": "172.16.28.84",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "AC-FAC-PC3",
+      "gateway": [
+        "172.16.28.65"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "172.16.28.67"
+      ],
+      "ip": "172.16.28.88",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "ML-SOP-PC1",
+      "gateway": [
+        "172.16.32.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.32.11",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "ML-SOP-PC2",
+      "gateway": [
+        "172.16.32.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.32.13",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "ML-SOP-PC3",
+      "gateway": [
+        "172.16.32.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.32.10",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "ML-SEG-PC1",
+      "gateway": [
+        "172.16.32.65"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.32.75",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "ML-SEG-PC2",
+      "gateway": [
+        "172.16.32.65"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.32.74",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "ML-SEG-PC3",
+      "gateway": [
+        "172.16.32.65"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.32.76",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    },
+    {
+      "name": "ML-SOP-LAP1",
+      "gateway": [
+        "172.16.32.1"
+      ],
+      "dns": [
+        "192.168.98.242"
+      ],
+      "dhcp_servers": [
+        "192.168.98.46"
+      ],
+      "ip": "172.16.32.12",
+      "mask": "255.255.255.192",
+      "dhcp": true
+    }
+  ],
+  "tests": [
+    {
+      "host": "FG-DNS-WEB",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "FG-ATC-PC2",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "ML-SEG-PC1",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "FG-ATC-PC3",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "ML-SOP-PC1",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "AC-VEN-PC3",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "AC-VEN-PC2",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "FG-ADM-PC2",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "FG-ADM-PC1",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "ML-SOP-PC3",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "FG-ADM-PC3",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "ML-SEG-PC3",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "AC-FAC-PC1",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "ML-SEG-PC2",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "AC-VEN-PC1",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "ML-SOP-PC2",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "ML-SOP-LAP1",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "AC-FAC-PC3",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "FG-ATC-PC1",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "AC-FAC-PC2",
+      "protocol": "http",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_http_1792656205448079500</p></body></html>"
+    },
+    {
+      "host": "FG-DNS-WEB",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "FG-ATC-PC1",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "FG-ATC-PC3",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "FG-ADM-PC1",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "FG-ATC-PC2",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "ML-SEG-PC1",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "ML-SEG-PC3",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "ML-SEG-PC2",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "ML-SOP-PC2",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "ML-SOP-PC1",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "AC-VEN-PC3",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "AC-FAC-PC3",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "AC-VEN-PC2",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "FG-ADM-PC2",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "ML-SOP-PC3",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "FG-ADM-PC3",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "AC-VEN-PC1",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "AC-FAC-PC2",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "ML-SOP-LAP1",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    },
+    {
+      "host": "AC-FAC-PC1",
+      "protocol": "https",
+      "ok": true,
+      "page": "<html><head><title>Conectividad XXI</title></head><body bgcolor=\"#eff5ff\"><h1>Conectividad XXI</h1><h2>Integracion de Operadores Nacionales</h2><p>Estudiante: Sergio Sandoval</p><p>Carne: 202010298</p><p>Universidad de San Carlos de Guatemala - Facultad de Ingenieria</p><p>Redes de Computadoras 2 - Segundo semestre 2026 - Proyecto 2</p><hr><p>FibraNet GT: OSPF, DNS y WEB. AndinaCom: OSPF, HSRP y DHCP. MoonLink: EIGRP y WiFi.</p><p>Interconexion nacional mediante BGP y fibra optica.</p><p>AUDIT_ALL_HOSTS_https_1792656239798000100</p></body></html>"
+    }
+  ]
+}

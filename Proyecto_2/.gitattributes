@@ -10,3 +10,4 @@
 *.pcapng binary
 Wireshark/*.log -text -whitespace
 Wireshark/entorno_vm.txt -text -whitespace
+*.xml -text -whitespace

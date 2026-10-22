@@ -1,0 +1,822 @@
+[
+  {
+    "device": "FG-R1",
+    "port": "GigabitEthernet2/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet2/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "FG-R2",
+    "port": "GigabitEthernet0/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet0/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "FG-R1",
+    "port": "GigabitEthernet3/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet3/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "FG-R3",
+    "port": "GigabitEthernet0/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet0/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "FG-R2",
+    "port": "GigabitEthernet1/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet1/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "FG-R4",
+    "port": "GigabitEthernet0/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet0/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "FG-R3",
+    "port": "GigabitEthernet1/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet1/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "FG-R5",
+    "port": "GigabitEthernet0/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet0/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R1",
+    "port": "GigabitEthernet2/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet2/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R2",
+    "port": "GigabitEthernet0/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet0/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R1",
+    "port": "GigabitEthernet3/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet3/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R3",
+    "port": "GigabitEthernet0/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet0/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R2",
+    "port": "GigabitEthernet1/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet1/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R4",
+    "port": "GigabitEthernet0/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet0/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R2",
+    "port": "GigabitEthernet2/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet2/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R5",
+    "port": "GigabitEthernet0/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet0/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R3",
+    "port": "GigabitEthernet1/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet1/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R4",
+    "port": "GigabitEthernet1/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet1/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R3",
+    "port": "GigabitEthernet2/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet2/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  },
+  {
+    "device": "AC-R5",
+    "port": "GigabitEthernet1/0",
+    "commands": [
+      {
+        "command": "configure terminal",
+        "result": {
+          "first": 0,
+          "second": "Enter configuration commands, one per line.  End with CNTL/Z.\n\n"
+        }
+      },
+      {
+        "command": "interface GigabitEthernet1/0",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "ip ospf network point-to-point",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "end",
+        "result": {
+          "first": 0,
+          "second": "\n"
+        }
+      },
+      {
+        "command": "write memory",
+        "result": {
+          "first": 0,
+          "second": "Building configuration...\n[OK]\n\n"
+        }
+      }
+    ]
+  }
+]

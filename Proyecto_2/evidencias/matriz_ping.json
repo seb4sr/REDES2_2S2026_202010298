@@ -1,266 +1,260 @@
 [
   {
+    "source": "ML-SOP-PC1",
+    "destination": "ML-SEG-PC1",
+    "destination_ip": "172.16.32.75",
+    "expected": false,
+    "received": 0,
+    "output": "Ping statistics for 172.16.32.75:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
+  },
+  {
     "source": "FG-ADM-PC1",
     "destination": "FG-ATC-PC1",
-    "destination_ip": "172.16.18.149",
+    "destination_ip": "172.16.18.148",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.18.149:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 10ms, Average = 6ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.18.148:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 1ms, Maximum = 399ms, Average = 178ms\n\nC:\\>"
   },
   {
     "source": "AC-FAC-PC1",
     "destination": "ML-SOP-PC1",
-    "destination_ip": "172.16.32.13",
+    "destination_ip": "172.16.32.11",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.32.13:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 20ms, Average = 5ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.32.11:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 180ms, Maximum = 582ms, Average = 304ms\n\nC:\\>"
   },
   {
-    "source": "ML-SOP-PC1",
-    "destination": "ML-SEG-PC1",
-    "destination_ip": "172.16.32.74",
-    "expected": false,
-    "received": 0,
-    "output": "Ping statistics for 172.16.32.74:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
-  },
-  {
-    "source": "ML-SEG-PC1",
-    "destination": "FG-ADM-PC1",
-    "destination_ip": "172.16.18.20",
+    "source": "FG-ATC-PC1",
+    "destination": "AC-VEN-PC1",
+    "destination_ip": "172.16.28.21",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.18.20:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 0ms, Average = 0ms\n\nC:\\>"
-  },
-  {
-    "source": "AC-VEN-PC1",
-    "destination": "AC-FAC-PC1",
-    "destination_ip": "172.16.28.87",
-    "expected": true,
-    "received": 4,
-    "output": "Ping statistics for 172.16.28.87:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 96ms, Maximum = 224ms, Average = 164ms\n\nC:\\>",
+    "output": "Ping statistics for 172.16.28.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 432ms, Average = 157ms\n\nC:\\>",
     "previous_attempts": [
       {
         "received": 3,
-        "output": "Ping statistics for 172.16.28.87:\n    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 32ms, Average = 18ms\n\nC:\\>"
+        "output": "Ping statistics for 172.16.28.21:\n    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 8ms, Maximum = 198ms, Average = 88ms\n\nC:\\>"
       }
     ]
-  },
-  {
-    "source": "FG-ATC-PC1",
-    "destination": "AC-VEN-PC1",
-    "destination_ip": "172.16.28.23",
-    "expected": true,
-    "received": 4,
-    "output": "Ping statistics for 172.16.28.23:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 233ms, Average = 148ms\n\nC:\\>",
-    "previous_attempts": [
-      {
-        "received": 0,
-        "output": "Ping statistics for 172.16.28.23:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
-      }
-    ]
-  },
-  {
-    "source": "FG-ATC-PC1",
-    "destination": "AC-FAC-PC1",
-    "destination_ip": "172.16.28.87",
-    "expected": false,
-    "received": 0,
-    "output": "Ping statistics for 172.16.28.87:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
-  },
-  {
-    "source": "AC-FAC-PC1",
-    "destination": "ML-SEG-PC1",
-    "destination_ip": "172.16.32.74",
-    "expected": false,
-    "received": 0,
-    "output": "Ping statistics for 172.16.32.74:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
-  },
-  {
-    "source": "ML-SOP-PC1",
-    "destination": "FG-ADM-PC1",
-    "destination_ip": "172.16.18.20",
-    "expected": true,
-    "received": 4,
-    "output": "Ping statistics for 172.16.18.20:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 1ms, Average = 0ms\n\nC:\\>"
   },
   {
     "source": "ML-SEG-PC1",
-    "destination": "FG-ATC-PC1",
-    "destination_ip": "172.16.18.149",
+    "destination": "FG-ADM-PC1",
+    "destination_ip": "172.16.18.21",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.18.149:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 10ms, Average = 5ms\n\nC:\\>"
-  },
-  {
-    "source": "AC-VEN-PC1",
-    "destination": "ML-SOP-PC1",
-    "destination_ip": "172.16.32.13",
-    "expected": true,
-    "received": 4,
-    "output": "Ping statistics for 172.16.32.13:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 50ms, Maximum = 147ms, Average = 97ms\n\nC:\\>",
+    "output": "Ping statistics for 172.16.18.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 98ms, Average = 24ms\n\nC:\\>",
     "previous_attempts": [
       {
-        "received": 1,
-        "output": "Ping statistics for 172.16.32.13:\n    Packets: Sent = 4, Received = 1, Lost = 3 (75% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 1ms, Average = 1ms\n\nC:\\>"
+        "received": 3,
+        "output": "Ping statistics for 172.16.18.21:\n    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 65ms, Maximum = 198ms, Average = 143ms\n\nC:\\>"
       }
     ]
   },
   {
-    "source": "FG-ADM-PC1",
-    "destination": "AC-VEN-PC1",
-    "destination_ip": "172.16.28.23",
+    "source": "AC-VEN-PC1",
+    "destination": "AC-FAC-PC1",
+    "destination_ip": "172.16.28.85",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.28.23:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 117ms, Average = 77ms\n\nC:\\>",
+    "output": "Ping statistics for 172.16.28.85:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 53ms, Maximum = 233ms, Average = 135ms\n\nC:\\>",
     "previous_attempts": [
       {
         "received": 2,
-        "output": "Ping statistics for 172.16.28.23:\n    Packets: Sent = 4, Received = 2, Lost = 2 (50% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 0ms, Average = 0ms\n\nC:\\>"
+        "output": "Ping statistics for 172.16.28.85:\n    Packets: Sent = 4, Received = 2, Lost = 2 (50% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 271ms, Maximum = 438ms, Average = 354ms\n\nC:\\>"
       }
     ]
   },
   {
-    "source": "FG-ADM-PC1",
+    "source": "FG-ATC-PC1",
     "destination": "AC-FAC-PC1",
-    "destination_ip": "172.16.28.87",
+    "destination_ip": "172.16.28.85",
+    "expected": false,
+    "received": 0,
+    "output": "Ping statistics for 172.16.28.85:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
+  },
+  {
+    "source": "AC-FAC-PC1",
+    "destination": "ML-SEG-PC1",
+    "destination_ip": "172.16.32.75",
+    "expected": false,
+    "received": 0,
+    "output": "Ping statistics for 172.16.32.75:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
+  },
+  {
+    "source": "ML-SOP-PC1",
+    "destination": "FG-ADM-PC1",
+    "destination_ip": "172.16.18.21",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.28.87:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 19ms, Average = 8ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.18.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 412ms, Average = 192ms\n\nC:\\>"
+  },
+  {
+    "source": "ML-SEG-PC1",
+    "destination": "FG-ATC-PC1",
+    "destination_ip": "172.16.18.148",
+    "expected": true,
+    "received": 4,
+    "output": "Ping statistics for 172.16.18.148:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 127ms, Maximum = 184ms, Average = 151ms\n\nC:\\>"
+  },
+  {
+    "source": "FG-ADM-PC1",
+    "destination": "AC-VEN-PC1",
+    "destination_ip": "172.16.28.21",
+    "expected": true,
+    "received": 4,
+    "output": "Ping statistics for 172.16.28.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 102ms, Maximum = 533ms, Average = 345ms\n\nC:\\>"
+  },
+  {
+    "source": "AC-VEN-PC1",
+    "destination": "ML-SOP-PC1",
+    "destination_ip": "172.16.32.11",
+    "expected": true,
+    "received": 4,
+    "output": "Ping statistics for 172.16.32.11:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 240ms, Maximum = 360ms, Average = 308ms\n\nC:\\>"
+  },
+  {
+    "source": "FG-ADM-PC1",
+    "destination": "AC-FAC-PC1",
+    "destination_ip": "172.16.28.85",
+    "expected": true,
+    "received": 4,
+    "output": "Ping statistics for 172.16.28.85:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 100ms, Maximum = 297ms, Average = 172ms\n\nC:\\>"
   },
   {
     "source": "FG-ATC-PC1",
     "destination": "ML-SOP-PC1",
-    "destination_ip": "172.16.32.13",
+    "destination_ip": "172.16.32.11",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.32.13:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 35ms, Average = 17ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.32.11:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 35ms, Maximum = 190ms, Average = 95ms\n\nC:\\>"
   },
   {
     "source": "AC-VEN-PC1",
     "destination": "ML-SEG-PC1",
-    "destination_ip": "172.16.32.74",
+    "destination_ip": "172.16.32.75",
     "expected": false,
     "received": 0,
-    "output": "Ping statistics for 172.16.32.74:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
+    "output": "Ping statistics for 172.16.32.75:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
   },
   {
     "source": "AC-FAC-PC1",
     "destination": "FG-ADM-PC1",
-    "destination_ip": "172.16.18.20",
+    "destination_ip": "172.16.18.21",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.18.20:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 12ms, Average = 8ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.18.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 189ms, Maximum = 235ms, Average = 216ms\n\nC:\\>"
   },
   {
     "source": "ML-SOP-PC1",
     "destination": "FG-ATC-PC1",
-    "destination_ip": "172.16.18.149",
+    "destination_ip": "172.16.18.148",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.18.149:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 1ms, Average = 0ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.18.148:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 241ms, Average = 121ms\n\nC:\\>"
   },
   {
     "source": "ML-SEG-PC1",
     "destination": "AC-VEN-PC1",
-    "destination_ip": "172.16.28.23",
+    "destination_ip": "172.16.28.21",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.28.23:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 14ms, Average = 6ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.28.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 112ms, Maximum = 240ms, Average = 173ms\n\nC:\\>"
   },
   {
     "source": "FG-ADM-PC1",
     "destination": "ML-SOP-PC1",
-    "destination_ip": "172.16.32.13",
+    "destination_ip": "172.16.32.11",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.32.13:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 10ms, Average = 5ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.32.11:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 203ms, Average = 103ms\n\nC:\\>"
   },
   {
     "source": "FG-ATC-PC1",
     "destination": "ML-SEG-PC1",
-    "destination_ip": "172.16.32.74",
+    "destination_ip": "172.16.32.75",
     "expected": false,
     "received": 0,
-    "output": "Ping statistics for 172.16.32.74:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
+    "output": "Ping statistics for 172.16.32.75:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
   },
   {
     "source": "AC-VEN-PC1",
     "destination": "FG-ADM-PC1",
-    "destination_ip": "172.16.18.20",
+    "destination_ip": "172.16.18.21",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.18.20:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 25ms, Average = 11ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.18.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 46ms, Maximum = 405ms, Average = 168ms\n\nC:\\>"
   },
   {
     "source": "AC-FAC-PC1",
     "destination": "FG-ATC-PC1",
-    "destination_ip": "172.16.18.149",
+    "destination_ip": "172.16.18.148",
     "expected": false,
     "received": 0,
-    "output": "Ping statistics for 172.16.18.149:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
+    "output": "Ping statistics for 172.16.18.148:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
   },
   {
     "source": "ML-SOP-PC1",
     "destination": "AC-VEN-PC1",
-    "destination_ip": "172.16.28.23",
+    "destination_ip": "172.16.28.21",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.28.23:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 25ms, Average = 8ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.28.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 184ms, Average = 102ms\n\nC:\\>"
   },
   {
     "source": "ML-SEG-PC1",
     "destination": "AC-FAC-PC1",
-    "destination_ip": "172.16.28.87",
+    "destination_ip": "172.16.28.85",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.28.87:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 25ms, Average = 6ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.28.85:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 207ms, Average = 107ms\n\nC:\\>"
   },
   {
     "source": "FG-ADM-PC1",
     "destination": "ML-SEG-PC1",
-    "destination_ip": "172.16.32.74",
+    "destination_ip": "172.16.32.75",
     "expected": false,
     "received": 0,
-    "output": "Ping statistics for 172.16.32.74:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
+    "output": "Ping statistics for 172.16.32.75:\n    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),\n\nC:\\>"
   },
   {
     "source": "FG-ATC-PC1",
     "destination": "FG-ADM-PC1",
-    "destination_ip": "172.16.18.20",
+    "destination_ip": "172.16.18.21",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.18.20:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 10ms, Maximum = 21ms, Average = 13ms\n\nC:\\>"
-  },
-  {
-    "source": "AC-VEN-PC1",
-    "destination": "FG-ATC-PC1",
-    "destination_ip": "172.16.18.149",
-    "expected": true,
-    "received": 4,
-    "output": "Ping statistics for 172.16.18.149:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 21ms, Average = 5ms\n\nC:\\>"
-  },
-  {
-    "source": "AC-FAC-PC1",
-    "destination": "AC-VEN-PC1",
-    "destination_ip": "172.16.28.23",
-    "expected": true,
-    "received": 4,
-    "output": "Ping statistics for 172.16.28.23:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 0ms, Average = 0ms\n\nC:\\>"
-  },
-  {
-    "source": "ML-SOP-PC1",
-    "destination": "AC-FAC-PC1",
-    "destination_ip": "172.16.28.87",
-    "expected": true,
-    "received": 4,
-    "output": "Ping statistics for 172.16.28.87:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 10ms, Average = 2ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.18.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 50ms, Average = 23ms\n\nC:\\>"
   },
   {
     "source": "ML-SEG-PC1",
     "destination": "ML-SOP-PC1",
-    "destination_ip": "172.16.32.13",
+    "destination_ip": "172.16.32.11",
     "expected": true,
     "received": 4,
-    "output": "Ping statistics for 172.16.32.13:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 10ms, Average = 4ms\n\nC:\\>"
+    "output": "Ping statistics for 172.16.32.11:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 71ms, Average = 18ms\n\nC:\\>"
+  },
+  {
+    "source": "AC-VEN-PC1",
+    "destination": "FG-ATC-PC1",
+    "destination_ip": "172.16.18.148",
+    "expected": true,
+    "received": 4,
+    "output": "Ping statistics for 172.16.18.148:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 78ms, Average = 44ms\n\nC:\\>"
+  },
+  {
+    "source": "AC-FAC-PC1",
+    "destination": "AC-VEN-PC1",
+    "destination_ip": "172.16.28.21",
+    "expected": true,
+    "received": 4,
+    "output": "Ping statistics for 172.16.28.21:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 61ms, Average = 25ms\n\nC:\\>"
+  },
+  {
+    "source": "ML-SOP-PC1",
+    "destination": "AC-FAC-PC1",
+    "destination_ip": "172.16.28.85",
+    "expected": true,
+    "received": 4,
+    "output": "Ping statistics for 172.16.28.85:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 23ms, Maximum = 71ms, Average = 46ms\n\nC:\\>"
   }
 ]

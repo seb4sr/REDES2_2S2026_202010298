@@ -1,0 +1,2192 @@
+[
+  {
+    "time": "2026-10-22T02:00:11.215561",
+    "valid_hosts": 0,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:00:21.282259",
+    "valid_hosts": 0,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:00:31.409336",
+    "valid_hosts": 6,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:00:41.543242",
+    "valid_hosts": 6,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:00:51.667982",
+    "valid_hosts": 6,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:01:01.758359",
+    "valid_hosts": 6,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:01:11.908266",
+    "valid_hosts": 6,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:01:22.002280",
+    "valid_hosts": 6,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:01:32.101300",
+    "valid_hosts": 6,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:01:42.275413",
+    "valid_hosts": 11,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.11",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.10",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.75",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.74",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.76",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:01:52.356379",
+    "valid_hosts": 11,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.11",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.10",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.75",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.74",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.76",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:02:02.417543",
+    "valid_hosts": 12,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.11",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.10",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.75",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.74",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.76",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "172.16.32.12",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:02:12.546326",
+    "valid_hosts": 16,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.148",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.149",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "192.168.98.242",
+        "mask": "255.255.255.252",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.11",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.13",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.10",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.75",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.74",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.76",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "172.16.32.12",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:02:22.651395",
+    "valid_hosts": 16,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.148",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "0.0.0.0",
+        "mask": "0.0.0.0",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.149",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "192.168.98.242",
+        "mask": "255.255.255.252",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.11",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.13",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.10",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.75",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.74",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.76",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "172.16.32.12",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      }
+    ]
+  },
+  {
+    "time": "2026-10-22T02:02:32.777545",
+    "valid_hosts": 20,
+    "hosts": [
+      {
+        "name": "FG-ADM-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.21",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.20",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ADM-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.22",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.148",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.150",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-ATC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.18.149",
+        "mask": "255.255.255.128",
+        "dhcp": true
+      },
+      {
+        "name": "FG-DNS-WEB",
+        "interface": "FastEthernet0",
+        "ip": "192.168.98.242",
+        "mask": "255.255.255.252",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.21",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.22",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-VEN-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.23",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.85",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.84",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "AC-FAC-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.28.88",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.11",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.13",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.10",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC1",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.75",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC2",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.74",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SEG-PC3",
+        "interface": "FastEthernet0",
+        "ip": "172.16.32.76",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      },
+      {
+        "name": "ML-SOP-LAP1",
+        "interface": "Wireless0",
+        "ip": "172.16.32.12",
+        "mask": "255.255.255.192",
+        "dhcp": true
+      }
+    ]
+  }
+]

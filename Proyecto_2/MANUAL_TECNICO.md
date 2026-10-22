@@ -39,6 +39,17 @@ FibraNet forma un árbol de cinco routers. AndinaCom utiliza núcleo, distribuci
 
 Cada ISP cuenta con seis PC cableadas, tres por departamento. MoonLink añade una laptop WiFi. Un servidor de FibraNet presta DNS y HTTP/HTTPS. Se diseñan dos grupos LACP independientes por ISP, cada uno con dos enlaces físicos.
 
+| Equipo del simulador | Cantidad | Función |
+|---|---:|---|
+| Router-PT-Empty, IOS 12.2, módulos PT-ROUTER-NM-1FGE | 15 | Cinco routers por ISP; enlaces ópticos de borde e internos |
+| Catalyst 2960-24TT | 11 | VLAN, acceso y seis Port-channel LACP |
+| Linksys-WRT300N | 1 adicional | Acceso WiFi de MoonLink, puente LAN, DHCP local desactivado |
+| PC-PT | 18 | Tres clientes DHCP por departamento |
+| Laptop-PT con Linksys-WPC300N | 1 | Cliente WiFi y DHCP central |
+| Server-PT | 1 | DNS, HTTP y HTTPS; dirección recibida por DHCP |
+
+Son 47 dispositivos de red/usuario del diseño. Packet Tracer agrega dispositivos físicos de distribución de energía a su inventario; no se cuentan como routers, hosts o switches para cumplir los mínimos. Los modelos genéricos representan las funciones de la simulación; los precios de la presentación son estimaciones del piloto, no fichas de compra certificadas.
+
 ## Subneteo departamental
 
 | Departamento | VLAN | Red | Máscara | Gateway | Broadcast | Hosts útiles |
@@ -52,7 +63,7 @@ Cada ISP cuenta con seis PC cableadas, tres por departamento. MoonLink añade un
 
 Las primeras 19 direcciones útiles de cada subred de FibraNet y AndinaCom se excluyen del pool DHCP para gateways y futura infraestructura. En MoonLink se excluyen solo las primeras nueve. FibraNet conserva 107 concesiones por departamento, suficientes para 75 clientes; MoonLink conserva 53, suficientes para 45.
 
-La tabla completa de interfaces está en `diseno/direccionamiento.json`; los archivos `.cfg` son la fuente de comandos planeados. Las direcciones realmente concedidas se documentarán tras consultar el servidor DHCP y cada host.
+La tabla completa de interfaces está en `diseno/direccionamiento.json`; los archivos `.cfg` son la fuente de comandos planeados. Las direcciones realmente concedidas están documentadas en [las pruebas verificadas](evidencias/RESULTADOS.md) y en `evidencias/hosts_dhcp.json`.
 
 ## Servicios centralizados
 
@@ -60,7 +71,7 @@ El servicio DHCP se ejecuta en AC-R5, loopback `192.168.98.254/32`. Los gateways
 
 El servidor DNS/WEB está en FibraNet, subred de infraestructura `192.168.98.240/30`. El router FG-R3 ocupa `.241`; el único cliente posible recibe `.242` por DHCP desde AndinaCom. Así DNS tiene una dirección predecible sin configurar una IP estática en el servidor. Esta pequeña subred no consume los /25 departamentales.
 
-El registro A previsto es `www.proyecto2_202010298.com → 192.168.98.242`. El sitio debe mostrar nombre, carné, curso, universidad y descripción del proyecto. Deben probarse HTTP y HTTPS.
+El registro A configurado es `www.proyecto2_202010298.com → 192.168.98.242`. El sitio muestra nombre, carné, curso, universidad y descripción del proyecto. HTTP y HTTPS se verificaron con marcadores nuevos para distinguir respuestas reales de páginas almacenadas previamente.
 
 ## BGP e IGP
 
@@ -69,6 +80,8 @@ Los tres bordes forman un triángulo eBGP, AS 65001/65002/65003. Se anuncian los
 Los bordes redistribuyen las rutas BGP aprendidas hacia OSPF o EIGRP. No se ejecuta el IGP sobre los enlaces eBGP. EIGRP recibe una métrica semilla explícita. Las interfaces hacia clientes son pasivas para evitar adyacencias no deseadas.
 
 Los seis enlaces internos redundantes de AndinaCom tienen costos OSPF 1, 2, 4, 8, 16 y 32, en el mismo orden que la tabla de enlaces. Ambos extremos de cada enlace usan el mismo costo. Esto selecciona una ruta principal determinista y conserva las rutas de respaldo al converger después de una falla.
+
+Los diez enlaces ópticos internos de FibraNet y AndinaCom usan `ip ospf network point-to-point` en sus veinte extremos. Cada /30 conecta exactamente dos routers, por lo que no necesita elección DR/BDR. Se evita así la espera inicial del tipo broadcast de Ethernet y se acelera la disponibilidad de rutas para DHCP al abrir el archivo. Los enlaces eBGP y los de EIGRP no reciben esta configuración OSPF.
 
 ## LACP y HSRP
 
@@ -122,9 +135,26 @@ La laptop utiliza un módulo `Linksys-WPC300N`, el SSID de laboratorio `Default`
 - EIGRP: protocolo IP 88, vecinos y actualización de rutas con métrica compuesta.
 - BGP: TCP/179, OPEN, KEEPALIVE y UPDATE; distinguir AS_PATH de la métrica interna.
 
+Se verificó además una petición HTTP en modo simulación y se conservan 138 eventos con decisiones OSI reales en `evidencias/auditoria/simulacion_http.json`. En ese registro, el evento 0 muestra el cliente abriendo TCP/80; el 20 recibe SYN-ACK y confirma TCP; el 21 genera la petición HTTP; y el 43 acepta la respuesta y entrega la página al navegador. Se observan las decisiones de aplicación, transporte, IP, Ethernet y puerto físico. Los índices pertenecen a esa ejecución, no a una captura futura. El MCP de esta versión devuelve algunas etiquetas numéricas `typeN`; la identificación del protocolo se contrastó con las decisiones de Packet Tracer, no se dedujo del número. Al terminar se restauró Realtime.
+
 ## Captura Wireshark
 
 Se preparó Ubuntu 24.04 en VMware Workstation, con 2 CPU, 2 GB de RAM, disco de 12 GB y adaptador E1000 en NAT. Wireshark/Tshark 4.2.2 capturó 42 tramas reales en `ens64`. El [análisis completo](Wireshark/ANALISIS_WIRESHARK.md) identifica direcciones, puertos, flags, secuencias y TTL. TCP: tramas 1–3; DNS: 10 y 13; HTTP: 4 y 6; TLS: 17, 19, 20, 26 y 28; ICMP: cuatro solicitudes y cuatro respuestas. El archivo pcapng, metadatos, registros y cinco imágenes están en `Wireshark/`. La VM permanece fuera del repositorio, al igual que su clave privada de administración.
+
+### Capas de la captura real
+
+| Escenario | Capa 1 y 2 | Capa 3 | Capa 4 | Aplicación y protección |
+|---|---|---|---|---|
+| TCP / HTTP | NIC virtual `ens64`, Ethernet con MAC del cliente y del siguiente salto NAT | IPv4 cliente → servidor público; TTL en cada datagrama | TCP, puerto efímero → 80; SYN/SYN-ACK/ACK y secuencias relativas | HTTP GET y respuesta 200 legibles, incluidos Host y contenido |
+| DNS | Mismo enlace Ethernet local; la MAC destino no identifica al DNS remoto | IPv4 cliente ↔ 1.1.1.1 | UDP, puerto efímero ↔ 53; no establece conexión TCP | Consulta A, identificador y respuesta con direcciones y TTL de caché |
+| HTTPS | Ethernet sobre NIC virtual; NAT conecta la VM con el exterior | IPv4 cliente ↔ servidor público | TCP hacia 443, con su propio handshake | TLS 1.2 negocia la sesión y protege HTTP; certificado y handshake visibles, datos de aplicación cifrados |
+| ICMP | Ethernet al siguiente salto y Ethernet de retorno | IPv4 + ICMP; tipos 8 y 0, código 0, identificador y secuencia | No utiliza TCP/UDP ni puertos | `ping` genera y muestra solicitudes, respuestas y RTT; el TTL observado pertenece a IP |
+
+Wireshark no captura directamente señales eléctricas u ópticas: la capa física aquí se describe por la interfaz virtual de origen. TLS se interpreta como protección sobre TCP de la aplicación HTTP; no implica que Wireshark muestre siete encabezados OSI separados. El detalle de tramas, secuencias, puertos, MAC y tiempos se consulta en el análisis enlazado.
+
+## Preparación para evaluación y estado de entrega
+
+La [auditoría del enunciado](AUDITORIA_ENUNCIADO.md) separa requisitos verificados de pendientes documentales y administrativos. La [guía de calificación](GUIA_CALIFICACION.md) explica la demostración en modo simulación, las decisiones de diseño y el único intento formal de ping. La exposición, las respuestas orales, la entrega en UEDI y el acceso del auxiliar no se acreditan únicamente con archivos locales.
 
 
 ## Diagramas por operador

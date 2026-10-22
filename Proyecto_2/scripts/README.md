@@ -36,6 +36,11 @@ Si la primera solicitud DHCP se hace antes de que haya rutas al servidor central
 - `test_acl_web.py`: crea seis servidores departamentales temporales, obtiene DHCP, ejecuta 24 casos HTTP/HTTPS y los retira al finalizar.
 - `export_evidence.py`: guarda las configuraciones efectivas obtenidas con `show running-config` y ejecuta `write memory`.
 - `update_manual.py`: exige que las pruebas registradas cumplan sus condiciones antes de generar la tabla de resultados.
+- `audit_acl_all.py`: comprueba 60 casos departamentales (30 pares dirigidos por HTTP y 30 por HTTPS), con marcadores únicos y servidores temporales retirados al terminar.
+- `audit_web_hosts.py`: comprueba HTTP y HTTPS desde los 20 hosts finales y exporta sus opciones DHCP; restaura la página original en `finally`.
+- `audit_live.py`: reúne lecturas CLI de los 26 equipos y comprueba el tipo de los 17 enlaces ópticos. No modifica su configuración.
+- `audit_reopen_wait.py`: observa la adquisición automática de DHCP durante hasta tres minutos tras abrir el archivo. Guarda los resultados incluso si detecta un problema; no lo oculta con direcciones estáticas.
+- `fix_ospf_startup.py`: aplica tipo de red OSPF point-to-point en los 20 extremos de los diez enlaces internos de FibraNet/AndinaCom, mediante CLI. El generador de configuración ya incluye ese ajuste.
 
 Ejecutar las pruebas de fallas de una en una y conservar los archivos de evidencia. Los scripts de construcción no vacían el lienzo ni reemplazan equipos existentes; requieren revisar el inventario antes de reutilizarlos.
 

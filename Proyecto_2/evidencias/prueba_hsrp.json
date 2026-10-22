@@ -32,6 +32,6 @@
       }
     }
   ],
-  "ping_after_failover": "ping 192.168.98.242\n\nPinging 192.168.98.242 with 32 bytes of data:\n\nReply from 192.168.98.242: bytes=32 time<1ms TTL=123\nReply from 192.168.98.242: bytes=32 time<1ms TTL=123\nReply from 192.168.98.242: bytes=32 time<1ms TTL=123\nReply from 192.168.98.242: bytes=32 time=6ms TTL=123\n\nPing statistics for 192.168.98.242:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 6ms, Average = 1ms\n\nC:\\>",
+  "ping_after_failover": "ping 192.168.98.242\n\nPinging 192.168.98.242 with 32 bytes of data:\n\nReply from 192.168.98.242: bytes=32 time=4ms TTL=123\nReply from 192.168.98.242: bytes=32 time<1ms TTL=123\nReply from 192.168.98.242: bytes=32 time<1ms TTL=123\nReply from 192.168.98.242: bytes=32 time<1ms TTL=123\n\nPing statistics for 192.168.98.242:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 0ms, Maximum = 4ms, Average = 1ms\n\nC:\\>",
   "restore": "power:true"
 }
